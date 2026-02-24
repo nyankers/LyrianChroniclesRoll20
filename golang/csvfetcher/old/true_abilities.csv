@@ -1,13 +1,13 @@
 ID,Macro
 abjurers_blast,
-absorb_ice,
+absorb_ice,no_macro_needed
 accelerando,
 accelerating_strike,
 adaptive_defense,
 advanced_artificing,
 aerial_crashdown,
 aerial_loop,
-aftershock,
+aftershock,&{template:default}{{name=@{name} ❖ Aftershock}} {{=You deal [[[[?{How much was AP Spent}]]*[[2]]]] **true** damage as $[[0]] AP was spent on the attack}}
 aimed_shot,
 alarm_ward,
 alchemical_detonation,
@@ -26,7 +26,7 @@ ar_-_minds_eye,
 arcane_barrier,
 arcane_barrier_ii,&{template:default} {{name=@{name} ❖ Arcane Barrier II}} {{ Barrier HP= [[15+@{focus}]]}} {{Guard= @{total_guard}}}
 arcane_buster,heavy_attack_weapon
-arcane_explosion,
+arcane_explosion,light_attack
 arcane_power,
 arcane_pull,no_macro_needed
 armor_up,
@@ -40,7 +40,7 @@ aura_of_resistance,&{template:default} {{name=@{name} ❖ Aura of Resistance}} {
 ave_maría,
 backlash,
 battle_cast,no_macro_needed
-bear_trap,
+bear_trap,"&{template:default}{{name=@{name} ❖ Bear Trap}} {{?{Is the enemy type, Beast?|Yes,Full Pierce Heavy Damage: [[4d6+2*@{power}]]|No,Full Pierce Light Damage: [[2d4+@{power}]]}}}"
 bestial_command,
 blackbird,no_macro_needed
 blast_away,
@@ -53,14 +53,14 @@ bloodbolt,
 blue_tide,
 bolting,&{template:default} {{name=@{name} ❖ Bolting}} {{ Heavy Attack=[[1d20+@{focus}]]}} {{ Damage= [[4d6+2*@{power}]]}} {{ Max Damage= [[4*6+2*@{power}]]}} {{ Static= [[3*@{power}]]}}
 bone_armor,
-bottle_smash,
-bottle_toss,
+bottle_smash,light_attack
+bottle_toss,light_attack
 boundless_wind_stance,no_macro_needed
 break_away,
 break_free,
 brilliance,
 bring_out_your_dead,
-bullet_magnet,
+bullet_magnet,no_macro_needed
 bunshin_tai_no_jutsu,
 butterfly_effect,
 call_of_the_grave,
@@ -120,7 +120,7 @@ death_mark,
 death_perception,
 decipher_magic,
 deconstruction,
-defensive_flexibility,no_macro_needed
+defensive_flexibility,"&{template:default} {{name=@{name} ❖ Defensive Flexibility}} {{=?{Previous defensive action (Block or Dodge)|Dodge, **@{name}**'s previous defense was **Dodge**&comma; they will **Block** the next attack|Block, **@{character_name}**'s previous defense was** Block**&comma; they will **Dodge** the next attack}}}"
 delayed_hit,
 demonblood_regeneration,
 despair_of_isolation,
@@ -128,7 +128,7 @@ destroy_ground,
 destroying_angel,&{template:default} {{name=@{name} ❖ Destroying Angel}} {{ Precise Attack=[[1d20+2*@{focus}]]}} {{ Damage= [[2d4+@{power}]]}} {{ Max Damage= [[2*4+@{power}]]}} {{ Heal= [[5+2*@{power}]]}}
 detailed_finish,
 deus_vult,
-devastating_strike,
+devastating_strike,&{template:default} {{name=@{name} ❖ Devastating Strike I @{main_weapon_name}}} {{Light Attack: [[2d4+@{power}+@{main_weapon_power}]]}}
 devastating_strike_iii,"&{template:default} {{name=@{name} ❖ Devastating Strike III @{main_weapon_name}}} {{?{Light , Heavy, or Precise? |Light, Light Attack: [[1d20+@{focus}+@{main_weapon_focus}]] Damage Roll: [[2d4+@{power}+@{main_weapon_power}]] |Heavy, Heavy Attack: [[1d20+@{focus}+@{main_weapon_focus}]] Damage Roll: [[4d6+2*@{power}+2*@{main_weapon_power}]]}}}"
 devils_blow,heavy_attack_weapon
 devils_curse,no_macro_needed
@@ -141,7 +141,7 @@ dispel_magic,
 disrupt_ki,
 divine_guard,
 divine_might,
-divine_providence,
+divine_providence,"&{template:default}{{name=@{name} ❖ Divine Providence}} {{Keywords:=Rage}} {{Range:=Self}} {{?{Divine Providence Select|Divine Protection,Divine Protection:=You are protected from harm through divine protection&comma; gaining 100 damage reduction against the next source of damage you take.|Fortune,Fortune:= When used for this effect&comma; this ability becomes Instant. You may reroll your last d20 and take the new result.|Health,Health:= You heal someone (or yourself) within touching distance for 15 hp.|Light,Light:= You summon a bright light at your position that shines a bright light up to 30ft around you. You may detonate this light by spending 0 AP to Daze all enemies within its range.}}} {{RP Cost=0 RP}}"
 divine_release,no_macro_needed
 divine_smite,
 divine_smite_ii,&{template:default} {{name=@{name} ❖ Divine Smite II}} {{ Heavy Attack=[[1d20+@{focus}]]}} {{ Damage= [[4d6+2*@{power}]]}} {{ Max Damage= [[4*6+2*@{power}]]}} {{Temp HP= [[5+@{power}]]}}
@@ -152,8 +152,8 @@ double_elements,
 double_palm_strike,
 double_punch,
 double_slam,
-downburst,
-downburst_ii,
+downburst,heavy_attack
+downburst_ii,heavy_attack
 dragon_breaks_the_ranks,&{template:default} {{name=@{name} ❖ Dragon Breaks The Ranks}} {{ Light Fire Damage=[[2d4+@{power}]]}} {{ Heavy Attack=[[1d20+@{focus}]]}} {{Heavy/HEAVY Damage=[[4d6+2*@{power}]]/[[5d6+2*@{power}]]}} {{ Max Damage=[[4*6+2*@{power}]]/[[5*6+2*@{power}]]}}
 dragonfire_dive,heavy_attack_weapon
 draw_elements,
@@ -168,9 +168,9 @@ eagle_hunt,no_macro_needed
 earthen_guardian,&{template:default} {{name=@{name} ❖ Earthen Guardian}} {{ Block= @{total_block}}}
 efficient_strike,no_macro_needed
 elbow_uppercut,heavy_attack_weapon
-elemental_mastery:_dark,
-elemental_mastery:_fire,
-elemental_mastery:_lightning,
+elemental_mastery:_dark,no_macro_needed
+elemental_mastery:_fire,no_macro_needed
+elemental_mastery:_lightning,no_macro_needed
 elemental_strike,
 elemental_sweep,
 emergency_recall,no_macro_needed
@@ -180,7 +180,7 @@ energy_drain,
 escape_artist,no_macro_needed
 eternal_mirane_cage,
 eternal_vigil,
-evasive_maneuver,
+evasive_maneuver,no_macro_needed
 evil_eye_of_death,no_macro_needed
 evil_eye_of_fear,&{template:default} {{name=@{name} ❖ Evil Eye of Fear}} {{ Potency= @{potency}}}
 evil_eye_of_lethargy,
@@ -212,7 +212,7 @@ feigned_retreat,
 feint,
 felling_strike,
 fiery_rebirth,
-fight_or_flight,
+fight_or_flight,"&{template:default}{{name=@{name} ❖ Fight or Flight}} {{Choice:=?{Fight or Flight|Fight,**Fight:** You immediately gain 2 AP that can be used on basic abilities&comma; but lose 1 RP.|Flight,**Flight:** You immediately gain 1 RP&comma; but recover 2 less AP on your next turn.}}}"
 fireball,
 fireball_barrage,
 fireball_ii,
@@ -225,10 +225,10 @@ flash_bomb,
 flash_cut,heavy_attack_weapon
 flash_star_style_secret_art:_twin_nova_pursuit,
 flash_star_style:_photon_line,
-flash_star_style:_starlight_crescent_reversal,
+flash_star_style:_starlight_crescent_reversal,light_attack_weapon
 flash_star_style:_thunderbolt_slash,
 flight,no_macro_needed
-flowing_kick,
+flowing_kick,heavy_attack
 fly,
 flyby_attack,
 flying_kick,
@@ -284,10 +284,10 @@ hopping_zombie,
 horse_body,
 horse_step_acceleration,
 horse_whistle,&{template:default} {{name=@{name} ❖ Horse Whistle}} {{ Light Attack= [[1d20+@{current_mount_focus}]]}} {{ Damage= [[2d4+@{current_mount_power}]]}} {{ Max Damage= [[2*4+@{current_mount_power}]]}}
-hover,
+hover,no_macro_needed
 hug_tight,&{template:default} {{name=@{name} ❖ Hug Tight}} {{ Light Damage= [[2d4+@{power}]]}}
 human_adaptability,
-hunting_wolf,
+hunting_wolf,no_macro_needed
 hyphal_force,
 iai_strike,
 icicle_nail,
@@ -314,7 +314,7 @@ kawarimi_no_jutsu,
 ki_blast,heavy_attack
 ki_blast_ii,
 ki_burst,
-kibaku_fuda_shuriken,
+kibaku_fuda_shuriken,&{template:default}{{name=@{name} ❖ Kibaku Fuda Shuriken}} {{Heavy Attack: [[1d20+@{focus}+@{main_weapon_focus}]] Damage: [[4d6+[[@{power}+@{main_weapon_power}]]*2]]}} {{Explosion Damage: [[2d4+@{power}+@{main_weapon_power}]]}} {{Potency: [[@{potency}+@{main_weapon_focus}]]}}
 killshot,
 kiri-tsuke,
 kiri-tsuke_ii,
@@ -324,7 +324,7 @@ last_rites,
 last_stand,no_macro_needed
 lay_on_hands,
 leashing,
-leg_sweep,
+leg_sweep,light_attack
 lengthened_incantation,"&{template:default} {{name=@{name} ❖ Lengthened Incantation}} {{?{2AP, 4AP, 6AP, or 8AP? |2AP, Damage= [[2d4+@{power}]] |4AP, Damage= [[4d4+2*@{power}]] |6AP, Damage= [[6d4+3*@{power}]] |8AP, Damage= [[8d4+4*@{power}]]}}}"
 lifebeat_sense,
 lifesense,
@@ -355,12 +355,12 @@ miracle:_sanctuary,&{template:default} {{name=@{name} ❖ Miracle: Sanctuary }} 
 misdirected_blow,
 mist_of_the_vale,
 momentum,heavy_attack_weapon
-mordschlag,
+mordschlag,heavy_attack_weapon
 mountain_slayer,
 mounted_casting,no_macro_needed
-movement_burst,
+movement_burst,"&{template:default} {{name=@{name} ❖ Movement Burst}} {{Total movement:[[20+[[{?{Mana spent},1}kh1]]*15]] Mana Spent:$[[0]]}}"
 mud_wall,
-multishot,
+multishot,heavy_attack
 mystic_eyes_of_life_perception,
 natures_grasp,
 ni_-_emergency_maneuvers,
@@ -373,11 +373,11 @@ order:_retreat,
 overclock,
 overpower,
 own_mount,
-pack_tactics,
+pack_tactics,no_macro_needed
 panda_roll,
 panda_stance,
 paragon_of_virtue,
-parry,
+parry,&{template:default} {{name=@{name} ❖ Parry}} {{Damage Parried:= [[4d6+[[@{focus}+@{main_weapon_focus}]]*2]]}}
 pathfinder,
 penetrating_shot,
 pepper_spray,
@@ -388,7 +388,7 @@ phantoms_of_the_mist,
 phoenix_tears,
 piercing_stab,
 pistol_whip,light_attack_weapon
-place_trap,
+place_trap,"&{template:default} {{name=@{name} ❖ Place Trap}} ?{What trap is used?|Log swing (Simple),{{Log Swing (Swing):=The target takes Light bludgeoning damage and is knocked back 20ft.&rbrace;&rbrace; {{Damage:= [[2d4+@{power}]]&rbrace;&rbrace;|Snare (Simple),{{Snare (Simple):=You place up to 3 snare traps&comma; each within 20ft of each other. When triggered&comma; the target’s movement is interrupted and they fall prone.&rbrace;&rbrace;|Net (Complex),{{Net (Complex):=The target is caught in a net and raised up into the air. It remains rooted there until the net is destroyed by dealing 15 damage&comma; after which the target falls prone on the ground below it.&rbrace;&rbrace;|Pitfall (Complex),{{Pitfall (Complex):=The target falls down a 5x5&comma; 20ft deep pit and takes falling damage as normal.&rbrace;&rbrace;}"
 plaguebringer,
 plow_the_fields,
 point_blank_shot,
@@ -442,8 +442,8 @@ resheathe,
 reverse_polarity,
 ricochet,
 rider_&_mount_as_one,
-riposte,
-riposte_ii,
+riposte,heavy_attack_weapon
+riposte_ii,heavy_attack_weapon
 rock_fang,
 running_shot,
 rushing_knee_drop,
@@ -452,7 +452,7 @@ sacrament,
 sapping_ward,&{template:default} {{name=@{name} ❖ Sapping Ward}} {{ Potency= @{potency}}}
 saprophytic_bolt,&{template:default} {{name=@{name} ❖ Saprophytic Bolt}} {{ Light Attack=[[1d20+@{focus}]]}} {{ Damage= [[2d4+@{power}]]}} {{ Max Damage= [[2*4+@{power}]]}} {{ Heal= [[3+@{power}]]}} 
 scarecrows_gaze,
-scent_of_blood,
+scent_of_blood,no_macro_needed
 schadenfreude,
 scouting_ahead,
 scouts_retreat,
@@ -541,17 +541,17 @@ silentium,light_attack_weapon
 single-minded_fury,
 siphon_material,
 siren_song,
-skillfull_blow,
+skillfull_blow,heavy_attack_weapon
 skydive,heavy_attack_weapon
-slam,
+slam,light_attack_weapon
 slide_&_shoot,
 slime_body,
 slow,
 smash_through_the_pain,
-snap_shot,&{template:default} {{name=@{name} ❖ Snap Shot}} {{ Heavy Attack=[[1d20]]}} {{ Damage= [[4d6+2*@{power}]]}} {{ Max Damage= [[4*6+2*@{power}]]}} 
-snap_shot_ii,
+snap_shot,&{template:default} {{name=@{name} ❖ Snap Shot}} {{ Heavy Attack=[[1d20]]}} {{ Damage= [[4d6+2*[[@{power}+@{main_weapon_power}]]]]}} {{ Max Damage= [[4*6+2*[[@{power}+@{main_weapon_power}]]]]}} 
+snap_shot_ii,&{template:default} {{name=@{name} ❖ Snap Shot II}} {{ Heavy Attack=[[1d20]]}} {{ Damage= [[4d6+2*[[@{power}+@{main_weapon_power}]]]]}} {{ Max Damage= [[4*6+2*[[@{power}+@{main_weapon_power}]]]]}} 
 snatch,
-sneak_attack,
+sneak_attack,heavy_attack_weapon
 soul_absorption,
 soul_strike,
 soulreap,
@@ -620,7 +620,7 @@ thermal_vision,
 threatening_aura,
 throw_potion,
 thunderstorm,
-tiny_pixie,
+tiny_pixie,no_macro_needed
 tireless_undead,
 torture_techniques,
 track,
@@ -679,7 +679,7 @@ wind_wall,
 wind-empowered_aim,
 wind-up_punch,
 wire_sweep,&{template:default} {{name=@{name} ❖ Wire Sweep}} {{ Potency= [[2+@{potency}]]}} {{Light Damage= [[2d4+@{power}]]}}
-wither_the_stalk,"light_attack_weapon"
+wither_the_stalk,light_attack_weapon
 x-attack,
 zap,
 zhen_jiao,no_macro_needed

@@ -37,8 +37,8 @@ attacks_from_the_past,
 attune_eidolon,
 aura_of_protection,
 aura_of_resistance,&{template:default} {{name=@{name} ❖ Aura of Resistance}} {{ Toughness= @{toughness}}}
-ave_maría,
-backlash,
+ave_maría,"&{template:default} {{name=@{name} ❖ Ave María [@{main_weapon_name}]}} {{Heavy Attack=Atk: [[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]] %NEWLINE%Damage: [[?{One-Handed or Two-Handed?|One-Handed,4|Two-Handed,5}d6+2d4+3*(@{power}+@{main_weapon_power})]]%NEWLINE%Max Dmg: [[?{One-Handed or Two-Handed?}*6+2*4+3*(@{power}+@{main_weapon_power})]]}}"
+backlash,&{template:default} {{name=@{name} ❖ Backlash [@{main_weapon_name}]}} {{Sure Hit Atk= [[1d20+@{focus}+@{main_weapon_focus}]]}} [[floor([[2d4+@{power}+@{main_weapon_power}]]/2)]] {{Full Pierce Dmg=$[[1]]}} {{True Dmg Backlash=$[[2]]}}
 battle_cast,no_macro_needed
 bear_trap,"&{template:default}{{name=@{name} ❖ Bear Trap}} {{?{Is the enemy type, Beast?|Yes,Full Pierce Heavy Damage: [[4d6+2*@{power}]]|No,Full Pierce Light Damage: [[2d4+@{power}]]}}}"
 bestial_command,
@@ -120,7 +120,7 @@ death_mark,
 death_perception,
 decipher_magic,
 deconstruction,
-defensive_flexibility,"&{template:default} {{name=@{name} ❖ Defensive Flexibility}} {{=?{Previous defensive action (Block or Dodge)|Dodge, **@{name}**'s previous defense was **Dodge**&comma; they will **Block** the next attack|Block, **@{character_name}**'s previous defense was** Block**&comma; they will **Dodge** the next attack}}}"
+defensive_flexibility,"&{template:default} {{name=@{name} ❖ Defensive Flexibility}} {{=?{Previous defensive action (Block or Dodge)|Dodge, **@{name}**'s previous defense was **Dodge**&comma; they will **Block** the next attack|Block, **@{name}**'s previous defense was** Block**&comma; they will **Dodge** the next attack}}}"
 delayed_hit,
 demonblood_regeneration,
 despair_of_isolation,
@@ -224,9 +224,9 @@ flame_weapon,
 flash_bomb,
 flash_cut,heavy_attack_weapon
 flash_star_style_secret_art:_twin_nova_pursuit,
-flash_star_style:_photon_line,
-flash_star_style:_starlight_crescent_reversal,light_attack_weapon
-flash_star_style:_thunderbolt_slash,
+flash_star_style:_photon_line,"&{template:default} {{name=@{name} ❖ FSS: Photon Line [@{main_weapon_name}]}} {{?{Single target or Multiple Targets?|Single,Heavy Attack=Atk:[[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]]%NEWLINE%Damage: [[?{One-Handed or Two-Handed?&vert;One-Handed&comma;4&vert;Two-Handed&comma;5&rbrace;d6+2*(@{power}+@{main_weapon_power})]]%NEWLINE%Max Dmg: [[?{One-Handed or Two-Handed?&rbrace;*6+2*(@{power}+@{main_weapon_power})]]|Multiple,Light Attack=Atk:[[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]]%NEWLINE%Damage: [[2d4+(@{power}+@{main_weapon_power})]]%NEWLINE%Max Dmg: [[2*4+(@{power}+@{main_weapon_power})]] } }}"
+flash_star_style:_starlight_crescent_reversal,&{template:default} {{name=@{name} ❖ FSS: Starlight Crescent Reversal [@{main_weapon_name}]}} {{Light Attack=Atk: [[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]] %NEWLINE%Damage: [[2d4+(@{power}+@{main_weapon_power})]]%NEWLINE%Max Dmg: [[8+@{power}+@{main_weapon_power}]]}} {{Critical on:=@{main_weapon_crit}+}}
+flash_star_style:_thunderbolt_slash,&{template:default} {{name=@{name} ❖ FSS: Thunderbolt Slash [@{main_weapon_name}]}} {{Light Attack 1=Atk: [[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]] Damage: [[2d4+(@{power}+@{main_weapon_power})]]}} {{Light Attack 2=Atk: [[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]] Damage: [[2d4+(@{power}+@{main_weapon_power})]]}} {{Light Attack 3=Atk: [[1d20cs>@{main_weapon_crit}+@{focus}+@{main_weapon_focus}]] Damage: [[2d4+(@{power}+@{main_weapon_power})]]}}
 flight,no_macro_needed
 flowing_kick,heavy_attack
 fly,
@@ -288,7 +288,7 @@ hover,no_macro_needed
 hug_tight,&{template:default} {{name=@{name} ❖ Hug Tight}} {{ Light Damage= [[2d4+@{power}]]}}
 human_adaptability,
 hunting_wolf,no_macro_needed
-hyphal_force,
+hyphal_force,&{template:default} {{name=@{name} ❖ Hyphal Force}} {{ Light Attack=[[1d20+@{focus}]]}} {{ Earth Damage= [[2d4+@{power}]]}} {{ Max Damage= [[2*4+@{power}]]}}
 iai_strike,
 icicle_nail,
 ignite,
@@ -390,7 +390,7 @@ piercing_stab,
 pistol_whip,light_attack_weapon
 place_trap,"&{template:default} {{name=@{name} ❖ Place Trap}} ?{What trap is used?|Log swing (Simple),{{Log Swing (Swing):=The target takes Light bludgeoning damage and is knocked back 20ft.&rbrace;&rbrace; {{Damage:= [[2d4+@{power}]]&rbrace;&rbrace;|Snare (Simple),{{Snare (Simple):=You place up to 3 snare traps&comma; each within 20ft of each other. When triggered&comma; the target’s movement is interrupted and they fall prone.&rbrace;&rbrace;|Net (Complex),{{Net (Complex):=The target is caught in a net and raised up into the air. It remains rooted there until the net is destroyed by dealing 15 damage&comma; after which the target falls prone on the ground below it.&rbrace;&rbrace;|Pitfall (Complex),{{Pitfall (Complex):=The target falls down a 5x5&comma; 20ft deep pit and takes falling damage as normal.&rbrace;&rbrace;}"
 plaguebringer,
-plow_the_fields,
+plow_the_fields,&{template:default} {{name=@{name} ❖ Plow the Fields}} {{(Blanketing) Light Attack=[[1d20+@{focus}+@{main_weapon_focus}]]}} {{ Damage= [[2d4+@{power}+@{main_weapon_power}]]}} {{ Max Damage= [[2*4+@{power}+@{main_weapon_power}]]}} 
 point_blank_shot,
 point_of_death,
 point_of_death_ii,
@@ -450,8 +450,8 @@ rushing_knee_drop,
 sable_grace,
 sacrament,
 sapping_ward,&{template:default} {{name=@{name} ❖ Sapping Ward}} {{ Potency= @{potency}}}
-saprophytic_bolt,&{template:default} {{name=@{name} ❖ Saprophytic Bolt}} {{ Light Attack=[[1d20+@{focus}]]}} {{ Damage= [[2d4+@{power}]]}} {{ Max Damage= [[2*4+@{power}]]}} {{ Heal= [[3+@{power}]]}} 
-scarecrows_gaze,
+saprophytic_bolt,&{template:default} {{name=@{name} ❖ Saprophytic Bolt}} {{ Light Attack=[[1d20+@{focus}]]}} {{ Damage= [[2d4+@{power}+@{main_weapon_power}]]}} {{ Max Damage= [[2*4+@{power}+@{main_weapon_power}]]}} {{ Heal= [[3+@{power}+@{main_weapon_power}]]}} 
+scarecrows_gaze,no_macro_needed
 scent_of_blood,no_macro_needed
 schadenfreude,
 scouting_ahead,
@@ -522,7 +522,7 @@ seismic_shove,light_attack
 selective_casting,
 send_to_armory,
 sense_magic,
-separate_wheat_from_chaff,
+separate_wheat_from_chaff,no_macro_needed
 serene_water_stance,
 shade_form,no_macro_needed
 shadow_cloak,
@@ -567,7 +567,7 @@ spirit_circuit_crash,
 spirit_jump,
 spirited_bravado,
 spiritual_sync,
-spore_burst,
+spore_burst,&{template:default} {{name=@{name} ❖ Spore Burst}} {{ Heavy Attack=[[1d20+@{focus}]]}} {{ Damage= [[4d6+2*@{power}]]}} {{ Max Damage= [[4*6+2*@{power}]]}}
 spore_symbiote,
 squadsight,no_macro_needed
 stab_&_throw,
@@ -656,7 +656,7 @@ vengeance,heavy_attack_weapon
 verdant_instinct,
 vi_-_first_response,
 victory_or_death,
-vital_drain,
+vital_drain,&{template:default} {{name=@{name} ❖  Vital Drain}} {{  Precise Attack =[[1d20+2*@{focus}]]}} {{ Damage= Mob Toughness}} {{ Heal= Mob Toughness}} 
 vital_drive,
 vital_drive_ii,
 vivisect,
@@ -679,7 +679,7 @@ wind_wall,
 wind-empowered_aim,
 wind-up_punch,
 wire_sweep,&{template:default} {{name=@{name} ❖ Wire Sweep}} {{ Potency= [[2+@{potency}]]}} {{Light Damage= [[2d4+@{power}]]}}
-wither_the_stalk,light_attack_weapon
+wither_the_stalk,"&{template:default} {{name=@{name} ❖ Wither the Stalk}} {{ Light Attack=[[1d20+@{focus}+@{main_weapon_focus}]]}} {{ Damage= [[2d4+@{power}+@{main_weapon_power}]]}} {{ Max Damage= [[2*4+@{power}+@{main_weapon_power}]]}} {{ On damage, the target cannot add their Power for damage to their next attack.}} "
 x-attack,
 zap,
 zhen_jiao,no_macro_needed

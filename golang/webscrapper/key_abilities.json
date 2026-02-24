@@ -6,7 +6,7 @@
      ],
      "Name": "Acolyte's Journey",
      "Benefits": [
-       "You gain proficiency in light armor, shields and a single common group of weapons. This group may include Channeling Weapons, even though they aren't consider common weapons.",
+       "You gain proficiency in light armor, shields and a single common group of weapons. This group may include Channeling Weapons, even though they aren't consider common weapons. (But you only get 1 of the possible channeling weapons).",
        "You gain +5 skill points in the Religion skill.",
        "You are welcome at establishments for your religion and they are obligated to help you with lodging, advice, food and sometimes equipment. "
      ]
@@ -60,7 +60,7 @@
      ],
      "Name": "Angelic Presence",
      "Benefits": [
-       "You gain +1 to Presence."
+       "You gain Angelic Presence, which gives a +1 to Presence."
      ]
    },
    "armorsmith_basics": {
@@ -162,19 +162,6 @@
        "When you make an attack with a throwing weapon, or take the thrown attack basic action, you may retrieve the weapon or draw a similar weapon at no cost."
      ]
    },
-   "botany_study": {
-     "ID": "botany_study",
-     "ClassID": [
-       "botanist"
-     ],
-     "Name": "Botany Study",
-     "Benefits": [
-       "You gain the ability to detect if foraged food is poisonous or unsafe to eat, nearly guaranteeing its safety.  If it is a common poison, you can also identify its effect.",
-       "You gain the ability to properly process some poisonous mushrooms, fruits and herbs, making them edible as a Camp Action.  You can process up to 100u at a time.",
-       "You gain the ability to harvest Tier 2 Foraging Outcrops.",
-       "You gain proficiency in Artifice Chainsaws and may use it as a gathering tool."
-     ]
-   },
    "brace": {
      "ID": "brace",
      "ClassID": [
@@ -196,6 +183,27 @@
        "You can craft using Pine and Maple, as well as alloys.",
        "You gain proficiency in axes. You also gain proficiency in either bows or crossbows.",
        "You can use the Carpenter's core crafting abilities."
+     ]
+   },
+   "celestial_artillery": {
+     "ID": "celestial_artillery",
+     "ClassID": [
+       "starcaller"
+     ],
+     "Name": "Celestial Artillery",
+     "Benefits": [
+       "When attacking an enemy that’s further than 80ft away, your spells with the Celestial keyword gain the Artillery keyword.",
+       "You may use Comet."
+     ]
+   },
+   "cloudstep": {
+     "ID": "cloudstep",
+     "ClassID": [
+       "flowing-wind-style"
+     ],
+     "Name": "Cloudstep",
+     "Benefits": [
+       "You may use Cloudstep."
      ]
    },
    "controlled_blaze": {
@@ -257,6 +265,18 @@
        "You gain proficiency in small weapons."
      ]
    },
+   "cultivators_journey": {
+     "ID": "cultivators_journey",
+     "ClassID": [
+       "cultivator"
+     ],
+     "Name": "Cultivator's Journey",
+     "Benefits": [
+       "Your unarmed attack damage is treated as a light weapon in which you are proficient.",
+       "You gain proficiency in light armor, light swords and another weapon of your choice.",
+       "You gain +5 skill points to spend in Appraise, Athletics, Deception, Perception, Insight, Medicine, Intimidation, Stealth or Common Knowledge. You can exchange any skill point for 2 expertise points, but must spend them in these skills."
+     ]
+   },
    "dark_surge": {
      "ID": "dark_surge",
      "ClassID": [
@@ -264,7 +284,7 @@
      ],
      "Name": "Dark Surge",
      "Benefits": [
-       "After you deal damage to yourself, your next unarmed attack that turn gains +1 Accuracy."
+       "After you deal damage to yourself, you gain Dark Surge for your next unarmed attack that turn. Dark Surge gives you +1 Accuracy."
      ]
    },
    "death_perception": {
@@ -307,6 +327,16 @@
      "Benefits": [
        "When using Decipher Magic, you are able to disable both tier 1 and tier 2 level bounded fields.",
        "You are able to disable or change who is excluded from your own Bounded Fields for 0 RP."
+     ]
+   },
+   "discern_immunities": {
+     "ID": "discern_immunities",
+     "ClassID": [
+       "harrier"
+     ],
+     "Name": "Discern Immunities",
+     "Benefits": [
+       "You may use Discern Immunities."
      ]
    },
    "draw_elements": {
@@ -377,7 +407,7 @@
      ],
      "Name": "Evil Eye",
      "Benefits": [
-       "While you have a Mystic Eye active, you gain a +10 bonus to perception checks relying on sight.",
+       "While you have a Mystic Eye active, you gain a +10 Mystic Eye bonus to perception checks relying on sight.",
        "One of your eyes becomes an Evil Eye. It may be used to make Mystic Eye type abilities of the appropriate type. An eye can only be a single mystic eye type."
      ]
    },
@@ -398,7 +428,7 @@
      ],
      "Name": "Expanded Circuits",
      "Benefits": [
-       "You gain +2 maximum mana."
+       "You gain Expanded Circuits, which gives +2 maximum mana."
      ]
    },
    "expanded_menagerie": {
@@ -425,11 +455,11 @@
    "expert_farmer": {
      "ID": "expert_farmer",
      "ClassID": [
-       "cultivator"
+       "agrarian"
      ],
      "Name": "Expert Farmer",
      "Benefits": [
-       "You may use the Cultivator's core crafting abilities."
+       "You may use the Agrarian's core crafting abilities."
      ]
    },
    "expert_scribe": {
@@ -439,8 +469,8 @@
      ],
      "Name": "Expert Scribe",
      "Benefits": [
-       "You gain +5 points in Art: Calligraphy expertise skill.",
-       "You may draw scrolls, talismans or similar objects for 0 AP once per turn. When you do, reduce the AP cost of that talisman by 1."
+       "You gain +5 points in Art: Calligraphy expertise skill. This is not doubled for expertise bonus.",
+       "You may draw scrolls, talismans or similar objects for 0 AP once per turn. When you do, reduce the AP cost of that talisman by 1. Even if you do not consume the talisman, it only benefits from the AP reduction once per turn."
      ]
    },
    "faerie_light_eyes": {
@@ -564,6 +594,16 @@
        "While in Rage Stance, you may choose to have your size be treated as one size bigger than it actually is. You get an additional +5 bonus to Fitness checks during Rage stance regardless."
      ]
    },
+   "gravity_master": {
+     "ID": "gravity_master",
+     "ClassID": [
+       "gravitect"
+     ],
+     "Name": "Gravity Master",
+     "Benefits": [
+       "When you push or pull an enemy on your turn, you may spend 1 mana to increase this distance by 10ft. You may also spend 1 mana to instead ignore the effects of 1 source of Immovable on a target you’re attempting to push, unless that target is permanently Immovable."
+     ]
+   },
    "greatshield_master": {
      "ID": "greatshield_master",
      "ClassID": [
@@ -593,7 +633,7 @@
      "Name": "Gunslinger's Agility",
      "Benefits": [
        "You gain proficiency in pistols.",
-       "You gain +1 to Initiative."
+       "You gain +1 Gunslinger bonus to Initiative."
      ]
    },
    "heavy_cavalry": {
@@ -653,6 +693,18 @@
        "You gain Frost Mastery.  Mastery of an element allows you to use it in Channeling weapon attacks and use it to perform minor tricks relating to it."
      ]
    },
+   "idols_journey": {
+     "ID": "idols_journey",
+     "ClassID": [
+       "idol"
+     ],
+     "Name": "Idol's Journey",
+     "Benefits": [
+       "You gain proficiency in wands, small weapons and light armor.",
+       "You gain +5 skill points in Art.",
+       "You may use One Beat, One Heart"
+     ]
+   },
    "improved_death_perception": {
      "ID": "improved_death_perception",
      "ClassID": [
@@ -683,7 +735,7 @@
      ],
      "Name": "Inconspicuous",
      "Benefits": [
-       "If the enemies are aware of your allies, but not of you, enemies are treated as surprised as if it was a surprise round to you. This may make them unable to react to you (but not your allies) if you act before them. This only applies on the first round of combat and only affects the person you're attacking.",
+       "If you're traveling stealthily, you may roll separate stealth checks even if traveling with the party. When doing this, any surprise rounds for you are determined purely off your own rolls and not your parties.",
        "During a surprise round, enemies you attack are still treated as having 0 RP even after you attack them until they start their turn. You still gain this benefit, even if your allies attacked them already."
      ]
    },
@@ -769,7 +821,7 @@
      "Name": "Lord's Dominion",
      "Benefits": [
        "You can partially resist the effect of the sun. You may now spend 1 round in the sun before you start taking damage. Spending a turn outside of the sun resets this effect, giving you another round where you do not suffer the negative effects.",
-       "You gain +1 Presence."
+       "You gain +1 Vampire Lord bonus to Presence."
      ]
    },
    "mage_armor": {
@@ -823,7 +875,7 @@
      ],
      "Name": "Magic Resistance",
      "Benefits": [
-       "You gain a +2 bonus to your saves against Spells."
+       "You gain a +2 Anti-Mage bonus to your saves against Spells."
      ]
    },
    "maid_training": {
@@ -834,7 +886,7 @@
      "Name": "Maid Training",
      "Benefits": [
        "You gain proficiency in staves (broom), small weapons, sets of missiles and light armor.",
-       "You gain 5 skill points to spend in Acrobatics, Stealth, Roguecraft, Medicine, Common Knowledge, Linguistics, Appraise, History, Perception, Insight Survival or Intimidation. You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
+       "You gain 5 skill points to spend in Athletics, Stealth, Roguecraft, Medicine, Common Knowledge, Linguistics, Appraise, History, Perception, Insight, Survival or Intimidation. You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
        "You may use Graceful Service."
      ]
    },
@@ -858,8 +910,19 @@
      "Name": "Martial Artist's Journey",
      "Benefits": [
        "Your unarmed attack damage is treated as a light weapon in which you are proficient.",
-       "You gain +5 skill points to spend in Acrobatics, Perception, Insight, Medicine, Intimidation or a relevant Expert Knowledge skill (By DM approval). You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
+       "You gain +5 skill points to spend in Athletics, Perception, Insight, Medicine, Intimidation or a relevant Expert Knowledge skill (By DM approval). You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
        "You can use Discipline."
+     ]
+   },
+   "mass_index": {
+     "ID": "mass_index",
+     "ClassID": [
+       "graviturge"
+     ],
+     "Name": "Mass Index",
+     "Benefits": [
+       "Your spells with the Gravity keyword deal extra damage to the target based on its size. They deal an additional 1 damage to large creatures and an additional 3 to Huge creatures.",
+       "You may use Gravity Crush."
      ]
    },
    "master_of_the_empty_sky": {
@@ -869,7 +932,7 @@
      ],
      "Name": "Master of the Empty Sky",
      "Benefits": [
-       "When flying and not benefiting from cover, you gain +2 Evasion and Dodge."
+       "When flying and not benefiting from cover, you gain a +2 Sky-Talon bonus to your Evasion and Dodge."
      ]
    },
    "mending": {
@@ -1001,6 +1064,17 @@
        "You are able to disable and modify t2 and t3 bounded fields."
      ]
    },
+   "puppet_grandmaster": {
+     "ID": "puppet_grandmaster",
+     "ClassID": [
+       "grandmaster"
+     ],
+     "Name": "Puppet Grandmaster",
+     "Benefits": [
+       "You can summon puppets under your control using Summon Piece. While these puppets follow movement rules as described in the abilities and are always Medium size, they can appear as whatever you wish, decided when you take this class.",
+       "As an EP action, you may change the appearance of your pieces."
+     ]
+   },
    "raise_undead": {
      "ID": "raise_undead",
      "ClassID": [
@@ -1083,7 +1157,7 @@
      "Name": "Rogue's Journey",
      "Benefits": [
        "You gain proficiency with light armor and with a group of One-Handed weapons. This list currently is: Small weapons, Light swords, Dueling weapons and Set of missiles.",
-       "You gain +5 skill points in Roguecraft and +5 skill points to spend in Acrobatics, Stealth, Deception, Perception, Insight, Negotiation, Intimidation or a relevant Expert Knowledge skill (By DM Approval).  You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
+       "You gain +5 skill points in Roguecraft and +5 skill points to spend in Athletics, Stealth, Deception, Perception, Insight, Negotiation, Intimidation or a relevant Expert Knowledge skill (By DM Approval).  You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
        "You can use Feint."
      ]
    },
@@ -1094,7 +1168,7 @@
      ],
      "Name": "Rolling Thunder",
      "Benefits": [
-       "After moving at least 40ft in a turn, your next unarmed strike that turn gains a +2 bonus to accuracy and damage."
+       "After moving at least 40ft in a turn, your next unarmed strike that turn gains a +2 Transcendent Lightning bonus to accuracy and damage."
      ]
    },
    "saboteur": {
@@ -1147,7 +1221,7 @@
      ],
      "Name": "Shielding Fist",
      "Benefits": [
-       "While you have at least 1 hand empty and aren't wielding a shield, you gain a +4 bonus to your block."
+       "While you have at least 1 hand empty and aren't wielding a shield, you gain a +4 Shield bonus to your block."
      ]
    },
    "shrug_it_off": {
@@ -1168,7 +1242,7 @@
      "Name": "Snipe",
      "Benefits": [
        "You gain proficiency in Sniper Rifles.",
-       "If you did not move this turn or the previous turn you gain a +1d4 bonus to your accuracy roll on attacks made with a Sniper Rifle."
+       "If you did not move this turn or the previous turn you gain a +1d4 Snipe bonus to your accuracy roll on attacks made with a Sniper Rifle."
      ]
    },
    "song_without_song": {
@@ -1318,7 +1392,7 @@
      ],
      "Name": "Superconductor",
      "Benefits": [
-       "Your Electromancer and Electromaster abilities that deal Lightning Damage gain Lock On and Half Pierce when used against a target in natural water, with water typing or with the Soaked debuff.",
+       "When you make an attack that deals Lightning damage to a target afflicted with Static, you gain a +1 accuracy bonus.",
        "You gain Elemental Mastery: Lightning."
      ]
    },
@@ -1340,6 +1414,16 @@
      "Name": "Surgical Precision",
      "Benefits": [
        "When you deal damage with a one-handed melee weapon that is both Sure Hit and Full Pierce or a critical hit, you inflict Bleeding on the target for 1 turn. This effect stacks with other Bleeds effects and itself up to 3 times."
+     ]
+   },
+   "take_the_advantage": {
+     "ID": "take_the_advantage",
+     "ClassID": [
+       "swashbuckler"
+     ],
+     "Name": "Take the advantage",
+     "Benefits": [
+       "When attacking a target inflicted with Offstep, Stagger or Blinded, you gain a +1 accuracy bonus against them."
      ]
    },
    "terrifying_charge": {
@@ -1468,7 +1552,8 @@
    "tremorsense": {
      "ID": "tremorsense",
      "ClassID": [
-       "geomancer"
+       "geomancer",
+       "granite-warden"
      ],
      "Name": "Tremorsense",
      "Benefits": [
@@ -1506,6 +1591,16 @@
      "Benefits": [
        "At the start of each arc, choose one person as your VIP for that arc. Your VIP is the target for several of your abilities.",
        "You may use VIP Protection."
+     ]
+   },
+   "wall_ride": {
+     "ID": "wall_ride",
+     "ClassID": [
+       "geomaster"
+     ],
+     "Name": "Wall Ride",
+     "Benefits": [
+       "When you create a wall on your turn using your Geomancer or Geomaster abilities, you may move along the wall as it is created. You can jump off at any point of the wall creation, ending in an empty square next to the wall."
      ]
    },
    "wind_master": {

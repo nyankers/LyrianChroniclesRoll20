@@ -257,6 +257,16 @@
        "You gain proficiency in small weapons."
      ]
    },
+   "dark_surge": {
+     "ID": "dark_surge",
+     "ClassID": [
+       "black-oath-style"
+     ],
+     "Name": "Dark Surge",
+     "Benefits": [
+       "After you deal damage to yourself, your next unarmed attack that turn gains +1 Accuracy."
+     ]
+   },
    "death_perception": {
      "ID": "death_perception",
      "ClassID": [
@@ -814,6 +824,18 @@
      "Name": "Magic Resistance",
      "Benefits": [
        "You gain a +2 bonus to your saves against Spells."
+     ]
+   },
+   "maid_training": {
+     "ID": "maid_training",
+     "ClassID": [
+       "maid"
+     ],
+     "Name": "Maid Training",
+     "Benefits": [
+       "You gain proficiency in staves (broom), small weapons, sets of missiles and light armor.",
+       "You gain 5 skill points to spend in Acrobatics, Stealth, Roguecraft, Medicine, Common Knowledge, Linguistics, Appraise, History, Perception, Insight Survival or Intimidation. You can exchange any skill point for 2 expertise points, but must spend them in these skills.",
+       "You may use Graceful Service."
      ]
    },
    "mana_sight": {
@@ -1482,7 +1504,8 @@
      ],
      "Name": "VIP Protection",
      "Benefits": [
-       "At the start of each arc, choose one person as your VIP for that arc. While within 5ft of your VIP, you may change all attacks that target your VIP and don’t target you to target you instead of your VIP. These attacks automatically hit you and you may not use the Dodge or Block reactions against it. Does not work against Attacks of Opportunity."
+       "At the start of each arc, choose one person as your VIP for that arc. Your VIP is the target for several of your abilities.",
+       "You may use VIP Protection."
      ]
    },
    "wind_master": {

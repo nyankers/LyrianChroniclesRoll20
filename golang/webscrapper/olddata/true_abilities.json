@@ -160,6 +160,22 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "allow_me_to_clean_that~": {
+     "ID": "allow_me_to_clean_that~",
+     "ClassID": [
+       "maid"
+     ],
+     "LevelRequired": 2,
+     "Name": "Allow me to clean that~",
+     "Keywords": "Rapid",
+     "Range": "5ft",
+     "Requirement": "",
+     "Description": "You instantly remove a negative effect from the terrain (such as Oil Slick, Sheet Ice, Web etc). Permanent effects such as fissure or effects with HP like a wall cannot be removed with this. A maximum of 15x15ft can be removed in 1 use and you may move to any spot of the cleaned terrain afterwards.In addition, you may target an ally with this to remove 1 negative physical effect from them instead.",
+     "RPcost": "",
+     "APcost": "1 AP",
+     "MPcost": "1 MP",
+     "Othercost": ""
+   },
    "ambush_trapper": {
      "ID": "ambush_trapper",
      "ClassID": [
@@ -190,22 +206,6 @@
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
-     "Othercost": ""
-   },
-   "anathema": {
-     "ID": "anathema",
-     "ClassID": [
-       "priest"
-     ],
-     "LevelRequired": 4,
-     "Name": "Anathema",
-     "Keywords": "Curse, Spell",
-     "Range": "60ft",
-     "Requirement": "-",
-     "Description": "You choose one target unit and they must save against your Potency or be afflicted by Anathema. Anathema increases the next source of damage that the target receives by your Heavy Attack damage.",
-     "RPcost": "",
-     "APcost": "2 AP",
-     "MPcost": "2 MP",
      "Othercost": ""
    },
    "angels_embrace": {
@@ -2059,7 +2059,7 @@
      "Keywords": "Disarm",
      "Range": "",
      "Requirement": "-",
-     "Description": "You may make a Light Attack against the target. On damage, you Disarm the target until the start of your next turn.",
+     "Description": "You may make a Heavy Attack against the target. If the attack beat the passive evasion of the target (before Dodge bonuses), you Disarm the target until the start of your next turn. The target may spend 1 RP to avoid the disarm effect. This is in addition to any RP the target may spend to avoid the attack itself.",
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "3 MP",
@@ -2479,6 +2479,22 @@
      "RPcost": "1 RP",
      "APcost": "",
      "MPcost": "2 MP",
+     "Othercost": ""
+   },
+   "eclipse_breaker": {
+     "ID": "eclipse_breaker",
+     "ClassID": [
+       "black-oath-style"
+     ],
+     "LevelRequired": 4,
+     "Name": "Eclipse Breaker",
+     "Keywords": "Setup",
+     "Range": "Self",
+     "Requirement": "",
+     "Description": "You make a Heavy attack against all targets in a 15x15ft line.You must choose the line direction when starting the ability.",
+     "RPcost": "",
+     "APcost": "2 AP",
+     "MPcost": "",
      "Othercost": ""
    },
    "efficient_strike": {
@@ -3339,10 +3355,26 @@
      "Keywords": "",
      "Range": "",
      "Requirement": "Must in a gathering session.",
-     "Description": "Make a gathering check against either Node or Lucky points. If this strike would max out it out, you may instead leave it at 1 and you gain +1 Strike Dice",
+     "Description": "Make a gathering check against either Node or Lucky points. If this strike would max out it out, you may instead leave it at 1 away from completion and you gain +1 Strike Dice",
      "RPcost": "",
      "APcost": "",
      "MPcost": "1 Strike Dice",
+     "Othercost": ""
+   },
+   "focused_power": {
+     "ID": "focused_power",
+     "ClassID": [
+       "black-oath-style"
+     ],
+     "LevelRequired": 6,
+     "Name": "Focused Power",
+     "Keywords": "",
+     "Range": "Self",
+     "Requirement": "Must be in Inexorable Shadow Stance.",
+     "Description": "When you’re about to take the extra damage from Inexorable Shadow Stance, you may choose to maximize the damage instead of rolling. Affects both the self damage and the damage you deal with it.",
+     "RPcost": "0 RP",
+     "APcost": "",
+     "MPcost": "1 MP",
      "Othercost": ""
    },
    "foragers_eye": {
@@ -3499,7 +3531,7 @@
      "Keywords": "Frost, Root, Slow, Spell, Combo",
      "Range": "80ft",
      "Requirement": "",
-     "Description": "You send ice spikes along the ground towards a single target, making a Heavy attack that deals Frost Damage. This cannot hit a target higher than 5ft above the ground. On hit, the target is Slowed until the end of their next turn.  If the target is already Slowed, they instead become Rooted, making them unable to move until the end of their next turn.Combo: When used after Icicle Nail hits, reduce the mana cost to 0.",
+     "Description": "You send ice spikes along the ground towards a single target, making a Heavy attack that deals Frost Damage. This cannot hit a target higher than 5ft above the ground. On hit, the target is Slowed until the end of their next turn.  If the target is already Slowed, they instead become Rooted, making them unable to move until the end of their next turn.Combo: When used after Icicle Nail or White Thunder hits, reduce the mana cost to 0.",
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "1 MP",
@@ -3611,7 +3643,7 @@
      "Keywords": "Spell, Light, Rapid, Illumination",
      "Range": "60ft",
      "Requirement": "",
-     "Description": "You attack with blades of pure light making a light against the target, dealing Holy(Light) damage. On damage, inflict Illumination  X where X equals your Focus / 2 (Rounded Down) until the end of your next turn.",
+     "Description": "You attack with blades of pure light making a light attack against the target, dealing Holy(Light) damage. On damage, inflict Illumination  X where X equals your Focus / 2 (Rounded Down) until the end of your next turn.",
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "",
@@ -3678,6 +3710,22 @@
      "Range": "-",
      "Requirement": "-",
      "Description": "The AP cost of True Divine Release I is lowered by 4 and the mana cost upkeep is lowered to 0.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
+   "graceful_service": {
+     "ID": "graceful_service",
+     "ClassID": [
+       "maid"
+     ],
+     "LevelRequired": 1,
+     "Name": "Graceful Service",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "You assist a target character, giving them 1 additional encounter conclusion action.This uses up your own encounter conclusion action.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -3834,10 +3882,10 @@
      ],
      "LevelRequired": 6,
      "Name": "Headwind",
-     "Keywords": "Aura, Upkeep",
+     "Keywords": "Aura, Upkeep, Slow",
      "Range": "Self",
      "Requirement": "-",
-     "Description": "You project an aura around you that hinders the movements of enemies. All enemies within 30ft of you become slowed. Upkeep: 1 AP",
+     "Description": "You project an aura around you that hinders the movements of enemies. All enemies that start their movement within 30ft of you become slowed. If an enemy takes a Move basic action outside of your zone and spends more than 1 AP, they are still slowed after calculating each individual AP spent on the move.Upkeep: 1 AP",
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "",
@@ -4225,6 +4273,22 @@
      "RPcost": "0 RP",
      "APcost": "",
      "MPcost": "",
+     "Othercost": ""
+   },
+   "inexorable_shadow_stance": {
+     "ID": "inexorable_shadow_stance",
+     "ClassID": [
+       "black-oath-style"
+     ],
+     "LevelRequired": 2,
+     "Name": "Inexorable Shadow Stance",
+     "Keywords": "Stance",
+     "Range": "Self",
+     "Requirement": "",
+     "Description": "You enter a stance that enhances your attacks at the cost of your own life. Whenever you hit an enemy with an unarmed attack, you may deal Light or Heavy true damage to yourself to increase the damage of the attack by the same amount. This may be done after reactions to the attack have been declared, though an enemy may still choose to react to it again or differently afterwards.If used with an attack that hits more than 1 target, this extra damage only applies to one of the damage rolls.This stance lasts until you enter a different stance.",
+     "RPcost": "",
+     "APcost": "0 AP",
+     "MPcost": "1 MP",
      "Othercost": ""
    },
    "inspired_finish": {
@@ -4942,7 +5006,7 @@
      "Keywords": "",
      "Range": "120ft",
      "Requirement": "-",
-     "Description": "You mark a single enemy, inflicting Mark of Justice on them. A marked enemy’s movement speed is reduced to 20ft. Abilities that allow for movement cannot move the target for more than 20ft per use. Secret Arts and Esoteric Arts are not affected by this. You can only have a single enemy marked by this at the same time. It lasts until the end of the encounter. Does not work on vehicles.A marked target may spend 1 mana to temporarily ignore the restricting effect for a movement action.",
+     "Description": "You mark a single enemy, inflicting Mark of Justice on them. A marked enemy’s movement speed is reduced to 20ft. Abilities that allow for movement cannot move the target for more than 20ft per use. Secret Arts and Esoteric Arts are not affected by this. You can only have a single enemy marked by this at the same time. It lasts until the end of the encounter. Does not work on vehicles.A marked target may spend 1 mana per AP/RP of the action (with a minimum of 1 mana even for 0 AP abilities) to temporarily ignore the restricting effect for a movement action.",
      "RPcost": "",
      "APcost": "1 AP",
      "MPcost": "",
@@ -5300,6 +5364,22 @@
      "MPcost": "1 MP",
      "Othercost": ""
    },
+   "overtime_again?": {
+     "ID": "overtime_again?",
+     "ClassID": [
+       "maid"
+     ],
+     "LevelRequired": 6,
+     "Name": "Overtime again?",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "When you take the Heal Injury, Appraise or Mentor IP actions, you may do the same action again for an EP.In addition, if you take the Rest interlude action you may give the benefit to a different character instead. This does not stack with any Rest bonuses they may have already.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "paragon_of_virtue": {
      "ID": "paragon_of_virtue",
      "ClassID": [
@@ -5490,6 +5570,22 @@
      "RPcost": "",
      "APcost": "",
      "MPcost": "Special",
+     "Othercost": ""
+   },
+   "please_hold_still~": {
+     "ID": "please_hold_still~",
+     "ClassID": [
+       "maid"
+     ],
+     "LevelRequired": 4,
+     "Name": "Please Hold Still~",
+     "Keywords": "Illumination",
+     "Range": "5ft",
+     "Requirement": "",
+     "Description": "You apply Illumination X to the target where X is your Focus. You cannot benefit from this Illumination yourself, but also cannot consume it.",
+     "RPcost": "",
+     "APcost": "2 AP",
+     "MPcost": "",
      "Othercost": ""
    },
    "plow_the_fields": {
@@ -5742,7 +5838,7 @@
      "Keywords": "",
      "Range": "5ft",
      "Requirement": "Special",
-     "Description": "You may place a Talisman on a surface or on a target within range. This costs the same amount of AP and Mana as it would normally cost and placing it on an unwilling target requires an accuracy roll that the target may dodge as normal. A target may spend AP equal to the AP cost of the talisman (before reductions) to remove the talisman from themselves.After placing it, until the end of the encounter or for the next 5 minutes, you may spend 0 RP to instantly trigger the effect of the talisman. You cannot trigger it anymore once a talisman has been removed or is in the process of being removed and a removed talisman loses its power entirely. A talisman placed on a creature gains Sure Hit against the creature it's on when triggered.You can only have 1 talisman prepared in this way at the same time and Sealing Talisman cannot be prepared like this.",
+     "Description": "You may place a Talisman on a surface or on a target within range. This costs the same amount of AP and Mana as it would normally cost and placing it on an unwilling target requires an accuracy roll that the target may dodge as normal. A target may spend AP equal to the AP cost of the talisman (before reductions) to remove the talisman from themselves.After placing it, until the end of the encounter or for the next 5 minutes, you may spend 0 RP to instantly trigger the effect of the talisman. You cannot trigger it anymore once a talisman has been removed or is in the process of being removed and a removed talisman loses its power entirely. A talisman placed on a creature gains Sure Hit against the creature it's on when triggered.You can only have 1 talisman prepared in this way at the same time and Sealing Talisman cannot be prepared like this. A placed talisman cannot have an AP cost of greater than 4 (or 10 seconds for casting times).",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -5806,7 +5902,7 @@
      "Name": "Prone Cover",
      "Keywords": "Stance",
      "Range": "d Weapon Attacks gain the Prone keyword.",
-     "Requirement": "-",
+     "Requirement": "Cannot be used while Flying.",
      "Description": "",
      "RPcost": "0 RP",
      "APcost": "",
@@ -5877,10 +5973,26 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "purification_circle": {
+     "ID": "purification_circle",
+     "ClassID": [
+       "high-priest"
+     ],
+     "LevelRequired": 4,
+     "Name": "Purification Circle",
+     "Keywords": "Spell",
+     "Range": "120ft",
+     "Requirement": "",
+     "Description": "You remove all stacks of single debuff from all allies in a 20ft radius circle from target point.",
+     "RPcost": "",
+     "APcost": "2 AP",
+     "MPcost": "2 MP",
+     "Othercost": ""
+   },
    "purify": {
      "ID": "purify",
      "ClassID": [
-       "high-priest"
+       "priest"
      ],
      "LevelRequired": 4,
      "Name": "Purify",
@@ -6319,7 +6431,7 @@
      "Keywords": "",
      "Range": "Self",
      "Requirement": "",
-     "Description": "While you are mounted and not flying your mount is no longer a valid target for attacks, including AoE attacks.",
+     "Description": "While you are mounted and not flying you and your mount are considered the same entity for the purposes of what can target you. This means that while you are mounted, your mount cannot be targeted by anything (including allied effects) unless the effect specifically says it does. Any debuff or buff on you also affects your mount's movement and speed as if it was placed on the mount.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -6591,7 +6703,7 @@
      "Keywords": "Healing, Overcharge, Secret Art, Spell",
      "Range": "60ft",
      "Requirement": "Ally is downed.",
-     "Description": "You pray for a Downed ally. The ally’s HP becomes 0 and then heals for your Power x 3.Overcharge: You may pay X extra mana to make the target heal + 7 HP for every additional point of mana spent. This ability does not work on Mortally Wounded allies.",
+     "Description": "You pray for a Downed ally. The ally’s HP becomes 0 and then heals for your Power x 3. They may stand up from prone after this healing.Overcharge: You may pay X extra mana to make the target heal + 7 HP for every additional point of mana spent. This ability does not work on Mortally Wounded allies.",
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "2 MP",
@@ -6908,7 +7020,7 @@
      ],
      "LevelRequired": 8,
      "Name": "Secret Art: Galaxy Stop",
-     "Keywords": "Secret Art",
+     "Keywords": "Secret Art, Spell",
      "Range": "2000ft Radius",
      "Requirement": "",
      "Description": "You create a space-time anomaly that freezes time itself in a local area for a short while, affecting all but the strong-willed.  All non-heroic units in range cannot take any actions until the end of their next turn.",
@@ -6991,7 +7103,7 @@
      "Keywords": "Healing, Secret Art, Aid",
      "Range": "40ft",
      "Requirement": "",
-     "Description": "You lose HP until your HP reaches 1. Another ally within range recovers that much HP. Any HP that exceeds the target’s max HP becomes temporary HP.",
+     "Description": "You lose HP until your HP reaches 1. Another ally within range recovers that much HP. Any HP that exceeds the target’s max HP becomes temporary HP.This HP loss cannot be mitigated in any way and ignores temporary HP.",
      "RPcost": "",
      "APcost": "1 AP",
      "MPcost": "",
@@ -7503,7 +7615,7 @@
      "Keywords": "Secret Art, Stance",
      "Range": "Self",
      "Requirement": "",
-     "Description": "You enter the Whirling Death stance, spinning wildly and shooting at enemies within range. While in this Stance you may spend 2 AP to make a Light Attack against all enemies within 20ft.These Light Attacks have Killing Blow: Repeat this attack.The Stance lasts until you enter a different Stance or until you make an attack that is not tied to this ability.",
+     "Description": "You enter the Whirling Death stance, spinning wildly and shooting at enemies within range. While in this Stance you may spend 2 AP to make a basic Light Attack with a pistol against all enemies within 20ft.These Light Attacks have Killing Blow: Repeat this attack.The Stance lasts until you enter a different Stance or until you make an attack that is not tied to this ability.",
      "RPcost": "",
      "APcost": "0 AP",
      "MPcost": "3 MP",
@@ -7516,13 +7628,13 @@
      ],
      "LevelRequired": 8,
      "Name": "Secret Art: Whiteout",
-     "Keywords": "Encounter Start, Frost, Spell, Upkeep, Concentration",
+     "Keywords": "Encounter Start, Frost, Spell, Upkeep, Concentration, Secret Art",
      "Range": "2500ft radius on self",
      "Requirement": "",
-     "Description": "You create a sudden snowstorm that obscures sight, creating difficult battle conditions. Attack accuracy for all affected units is reduced by your Focus. Units with \"Ice Cold\" or Frost Immunity are not affected by this ability. The snowstorm ends at the end of your next turn, unless you pay 3 mana to Upkeep.You may activate this ability as an Encounter Start action during the Encounter Start phase of an encounter. If you do, you do not pay the RP cost.",
-     "RPcost": "2 RP",
+     "Description": "You create a sudden snowstorm that obscures sight, creating difficult battle conditions. Attack accuracy for all affected units is reduced by your Focus and sight range is reduced to 60ft. A creature can only target something within their sight range.You and creatures with Frost Immunity are not affected by this ability.You may activate this ability as an Encounter Start action during the Encounter Start phase of an encounter. If you do, you do not pay the RP or initial mana cost.Upkeep: You must pay 2 mana at the start of your turn or the effect ends at the end of that turn.",
+     "RPcost": "1 RP",
      "APcost": "",
-     "MPcost": "",
+     "MPcost": "1 MP",
      "Othercost": ""
    },
    "secret_art:_within_this_ink,_the_perfect_answer": {
@@ -7583,7 +7695,7 @@
      "Keywords": "",
      "Range": "Self",
      "Requirement": "-",
-     "Description": "For the next Spell you cast, you may choose to have it not affect a number of targets equal to your Focus.",
+     "Description": "For the next Spell you cast, you may choose to have it not affect a number of targets equal to your Focus.Only affects spells with an instantaneous effect (excluding setup things). Lingering spell effects such as Glittershards cannot be used with Selective Casting.",
      "RPcost": "0 RP",
      "APcost": "",
      "MPcost": "1 MP",
@@ -7683,6 +7795,22 @@
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "2 MP",
+     "Othercost": ""
+   },
+   "shadow_counter": {
+     "ID": "shadow_counter",
+     "ClassID": [
+       "black-oath-style"
+     ],
+     "LevelRequired": 8,
+     "Name": "Shadow Counter",
+     "Keywords": "Setup, Unarmed Strike",
+     "Range": "Melee Weapon",
+     "Requirement": "Must be in Inexorable Shadow Stance.",
+     "Description": "You prepare a powerful attack against a single enemy. This attack deals extra damage based on half your missing health.If that enemy provokes an AoO while you are charging this ability, you may immediately use this ability as if you finished charging it.",
+     "RPcost": "",
+     "APcost": "2 AP",
+     "MPcost": "1 MP",
      "Othercost": ""
    },
    "shadow_step": {
@@ -8018,6 +8146,22 @@
      "Description": "You reduce the damage taken by the next attack by an amount equal to 3 + Power",
      "RPcost": "1 RP",
      "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
+   "snack_time_everyone!~": {
+     "ID": "snack_time_everyone!~",
+     "ClassID": [
+       "maid"
+     ],
+     "LevelRequired": 8,
+     "Name": "Snack Time Everyone!~",
+     "Keywords": "Upkeep",
+     "Range": "Self",
+     "Requirement": "At least 1 hand free",
+     "Description": "You present a tray of refreshing Health and Mana snacks to your allies. All allies within 5ft of you may spend 0 RP to eat a snack.Health: The ally may spend 2 Mana to heal for 15 HP.Mana: The ally recovers 1 Mana. This counts as a character’s one food for the day and a character cannot benefit from this ability if they already had food.You keep the tray of snacks up for 1 turn and a character walking within 5ft of you while it’s up may also spend the 0 RP to eat a snack. Allies may also spend 0 AP to eat another snack. They can do this once per turn.Upkeep: 1 Mana, you keep the tray up for an additional turn.",
+     "RPcost": "",
+     "APcost": "2 AP",
      "MPcost": "",
      "Othercost": ""
    },
@@ -9072,7 +9216,7 @@
      "Keywords": "",
      "Range": "",
      "Requirement": "20u of Food Per Serving",
-     "Description": "For a camp action you create up to 5 servings of a trail meal.  It costs 20u of food per serving and does not give mana, but it keeps starvation away.  Does not require a culinary kit, and does not count as cooking for the purposes of culinary actions such as using stocks.",
+     "Description": "For a camp action you create up to 5 servings of a trail meal.  It costs 20u of food per serving and only gives 1 mana (0 for Mirane), but it keeps starvation away.  Does not require a culinary kit, and does not count as cooking for the purposes of culinary actions such as using stocks.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "Rest Action",
@@ -9543,6 +9687,22 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "vip_protection": {
+     "ID": "vip_protection",
+     "ClassID": [
+       "bodyguard"
+     ],
+     "LevelRequired": 1,
+     "Name": "VIP Protection",
+     "Keywords": "Rapid",
+     "Range": "5ft",
+     "Requirement": "Your VIP is within 5ft of you and is the target of an attack that does not target you as well.",
+     "Description": "You change the target of the attack to you instead of your VIP.This attack automatically hits you and you may not use the Dodge and Block or similar reactions against it. Does not work against Attacks of Opportunity.",
+     "RPcost": "0 RP",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "vital_drain": {
      "ID": "vital_drain",
      "ClassID": [
@@ -9665,7 +9825,7 @@
      "Keywords": "Encounter Start, Flashback",
      "Range": "",
      "Requirement": "1 Ally’s Smithed Weapon, or your own smithed weapon.",
-     "Description": "You recall having previously assisted an ally in maintaining their weapon, causing it to be in top shape for battle. This weapon gains a +1 Power Artisan Bonus or +1 Focus Artisan Bonus. If you smithed the weapon it gains both.Does not stack with the artisan bonus given from crafting. If the weapon you choose gets no bonus from this ability, it's critical range instead improves by 1. (A normal weapon now crits on a 19 and 20, a katana on a 18, 19 and 20).",
+     "Description": "You recall having previously assisted an ally in maintaining their weapon, causing it to be in top shape for battle. This weapon gains a +1 Power Artisan Bonus or +1 Focus Artisan Bonus. If you smithed the weapon it gains both. This Artisan bonus is considered the same bonus as from a weapon's material like Tamahagane and does not stack with it.If the weapon you choose gets no bonus from this ability, it's critical range instead improves by 1. (A normal weapon now crits on a 19 and 20, a katana on a 18, 19 and 20).",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -9777,7 +9937,7 @@
      "Keywords": "Spell, Wind",
      "Range": "30ft cone",
      "Requirement": "-",
-     "Description": "You blow wind in a 30ft cone in your chosen direction. All caught in the cone must make a save against your Potency or be blown back to the end of the cone and knocked Prone. Enemies with a size smaller than you suffer a 1d4 penalty to this roll, while enemies bigger than you get a 1d4 bonus instead. Targets knocked into other characters or an object take damage as if they fell a distance equal to distance they failed to move.",
+     "Description": "You blow wind in a 30ft, 60ft degree cone in your chosen direction. All caught in the cone must make a save against your Potency or be blown back to the end of the cone and knocked Prone. Enemies with a size smaller than you suffer a 1d4 penalty to this roll, while enemies bigger than you get a 1d4 bonus instead. Targets knocked into other characters or an object take damage as if they fell a distance equal to distance they failed to move.",
      "RPcost": "",
      "APcost": "2 AP",
      "MPcost": "2 MP",

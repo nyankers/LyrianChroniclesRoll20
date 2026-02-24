@@ -46,7 +46,14 @@
     "Name": "Blend In (Slimefolk)",
     "Cost": "200",
     "Requirement": "Must be a Slimefolk.",
-    "Description": "You disguise your appearance using magic to be that of another race.  This skill does not allow you to change your appearance at will, but instead lets you appear as you would as a different race.  You choose this race when this breakthrough is picked up and cannot change it.In addition, the first time you use Slime Body while disguised in this way, it costs 0 RP instead of 1 RP.  This effect does not work if the attacker knows that you are a Slimefolk."
+    "Description": "You disguise your appearance using magic to be that of another race (and gain a +30 bonus to hide this magical effect from things such as sense magic). This skill does not allow you to change your appearance at will, but instead lets you appear as you would as a different race.  You choose this race when this breakthrough is picked up and cannot change it.In addition, the first time you use Slime Body while disguised in this way, it costs 0 RP instead of 1 RP but reveals your actual race.  This effect does not work if the attacker knows that you are a Slimefolk."
+  },
+  "blend_in_ii_(slimefolk)": {
+    "ID": "blend_in_ii_(slimefolk)",
+    "Name": "Blend In II (Slimefolk)",
+    "Cost": "25",
+    "Requirement": "Must have Blend In.",
+    "Description": "You may disguise as a different race in addition to your chosen race during Blend In. You may take this breakthrough multiple times, selecting a new race to disguise as each time."
   },
   "blessed_by_kari_(human)": {
     "ID": "blessed_by_kari_(human)",
@@ -69,12 +76,19 @@
     "Requirement": "Must be a Ryujin. Can only be taken at character creation.",
     "Description": "Your elemental mastery from your Ryujin's Mastery may be Holy or Dark as well. In addition, you can use Flight."
   },
+  "combat_doggy_(cu_sith)": {
+    "ID": "combat_doggy_(cu_sith)",
+    "Name": "Combat Doggy (Cu Sith)",
+    "Cost": "100",
+    "Requirement": "Must be a Cu Sith.",
+    "Description": "You may use abilities like normal while in Dog Form and may use One-Handed weapon. Any abilities that require a specific armor or other specific physical requirements still cannot be used.Your Dog Form no longer breaks upon taking damage."
+  },
   "combat_kitty_(cait_sith)": {
     "ID": "combat_kitty_(cait_sith)",
     "Name": "Combat Kitty (Cait Sith)",
     "Cost": "100",
     "Requirement": "Must be a Cait Sith.",
-    "Description": "You may use abilities like normal while in cat form. Any abilities that require a specific weapon, armor or similar physical requirement cannot be used."
+    "Description": "You may use abilities like normal while in cat form and may use One-Handed weapon. Any abilities that require a specific armor or other specific physical requirements still cannot be used.Your cat form no longer breaks on damage."
   },
   "curse_of_vampirism": {
     "ID": "curse_of_vampirism",
@@ -82,6 +96,13 @@
     "Cost": "300",
     "Requirement": "Must be taken at character creation or after being killed by a vampire's bite.",
     "Description": "You rise as a vampire, an immortal creature that feeds on the blood of living creatures and immediately gain the Vampire racial style class and its key ability. Your race changes to ‘Vampire’, but you keep the benefits of your previous race.As a vampire, you no longer age and your physical appearance changes slightly. Your skin becomes more pale and you grow a pair of fangs. You still need to eat, drink and breathe as normal.A vampire’s spirit core is cracked, making it difficult for it to regenerate mana naturally and requiring it to obtain it from other creatures. You no longer regenerate mana from eating (including potions), resting and can no longer use the Draw Mana encounter conclusion action. You still recover full mana at the start of a new arc. You are weak to sunlight. Every round you spend in sunlight without proper protection you take 10 true damage and your maximum HP is lowered by 10. Your maximum HP remains lowered until you finish a rest. You may carry a parasol or similar object in one hand to protect yourself from the sun and can do so even in combat.In addition to these drawbacks, you no longer receive Wounds unless the damage that reduced your HP to 0 was fire, holy or true damage. You also gain 60ft Darkvision. Darkvision lets you see in total darkness, even if there's no source of light."
+  },
+  "deep_connection": {
+    "ID": "deep_connection",
+    "Name": "Deep Connection",
+    "Cost": "50",
+    "Requirement": "Cavalier mastered.",
+    "Description": "You may command your mount to move and attack even if you're not mounted on it. This still using AP, Mana etc like normal as if you were mounted."
   },
   "deus_ex_machina": {
     "ID": "deus_ex_machina",
@@ -178,7 +199,7 @@
     "ID": "fast_movement_(centaur)",
     "Name": "Fast Movement (Centaur)",
     "Cost": "200",
-    "Requirement": "Must be Centaur.",
+    "Requirement": "Must be Centaur or Arachne Spiderfolk",
     "Description": "Your base movement speed increases by 5ft."
   },
   "fearless": {
@@ -186,7 +207,7 @@
     "Name": "Fearless",
     "Cost": "200",
     "Requirement": "-",
-    "Description": "Whenever you are afflicted by a Fear type condition, you may spend 1 RP or 1 AP to remove it."
+    "Description": "Whenever you are afflicted by a Fear type condition, you may spend 1 RP or 0 AP to remove it."
   },
   "fight_and_flight_(chimera)": {
     "ID": "fight_and_flight_(chimera)",
@@ -272,11 +293,11 @@
     "Requirement": "-",
     "Description": "You learn a language of your choice. Rare, dead or similar languages may be unavailable (GM’s discretion).You may take this breakthrough multiple times, picking a different language each time."
   },
-  "large_specimen_(nio_or_bearfolk)": {
-    "ID": "large_specimen_(nio_or_bearfolk)",
-    "Name": "Large Specimen (Nio or Bearfolk)",
+  "large_specimen_(nio,_bullfolk_or_bearfolk)": {
+    "ID": "large_specimen_(nio,_bullfolk_or_bearfolk)",
+    "Name": "Large Specimen (Nio, Bullfolk or Bearfolk)",
     "Cost": "100",
-    "Requirement": "Must be a Nio or Bearfolk.",
+    "Requirement": "Must be a Nio, Bullfolk or Bearfolk.",
     "Description": "Your size becomes Large."
   },
   "light_armor_training": {
@@ -292,6 +313,13 @@
     "Cost": "75",
     "Requirement": "-",
     "Description": "When asleep, you may roll Perception rolls as if you were awake to be aware of danger approaching."
+  },
+  "mark_of_conflict": {
+    "ID": "mark_of_conflict",
+    "Name": "Mark of Conflict",
+    "Cost": "0",
+    "Requirement": "Must be an Unknown Paladin that follows Eisen. Must have the Mark of Justice ability.",
+    "Description": "The effect of your Mark of Justice changes to the following:“You mark a single enemy, inflicting the Mark of Conflict on them. If an enemy spends AP or RP to move away from you and not towards another ally, they take Full Pierce physical damage equal to your Power for each AP or RP they spent walking away from you.”The range and AP cost remain the same."
   },
   "medium_armor_training": {
     "ID": "medium_armor_training",
@@ -440,12 +468,33 @@
     "Requirement": "Must have Flight racial ability or Racial Flight breakthrough",
     "Description": "When you are about to lose Height from taking damage due to your Flight ability, you may instead spend 3 Mana to negate losing height from the flight mechanic until the start of your next turn.Abilities that make you lose height not part of the Flight ability (such as downburst) may still knock you out of the air."
   },
+  "slime_summoner": {
+    "ID": "slime_summoner",
+    "Name": "Slime Summoner",
+    "Cost": "100",
+    "Requirement": "Must be a mastered Animal Summoner.",
+    "Description": "When using the Summon Animal ability, you may instead choose to summon slimes. You roll randomly from the following slimes: Slime, Fire Slime, Earth Slime, Water Slime, Wind Slime or Mana Slime.Even if you have the Wildheart class, you still cannot choose which slime you summon except you may choose to summon the regular Slime."
+  },
   "slow_starter": {
     "ID": "slow_starter",
     "Name": "Slow Starter",
     "Cost": "300",
     "Requirement": "Must be taken at character creation.",
     "Description": "You receive 200 less EXP at character creation to spend on classes and abilities. Every time you get EXP after character creation, you get twice as much. This lasts until you’ve received a total of 500 (1000 when doubled) exp."
+  },
+  "small_doggy_(cu_sith)": {
+    "ID": "small_doggy_(cu_sith)",
+    "Name": "Small Doggy (Cu Sith)",
+    "Cost": "0",
+    "Requirement": "Must be a Cu Sith.",
+    "Description": "When you enter your Dog Form, you become a small dog instead. Instead of the usual bonuses and penalties, you instead lose 4 guard and 8 Block but gain a +2 Size bonus to Evasion and Dodge."
+  },
+  "small_specimen_(cowfolk)": {
+    "ID": "small_specimen_(cowfolk)",
+    "Name": "Small Specimen (Cowfolk)",
+    "Cost": "25",
+    "Requirement": "Cowfolk only. Must be taken at character creation.",
+    "Description": "Your size is Small instead of Medium."
   },
   "speciality_weapon_training": {
     "ID": "speciality_weapon_training",
@@ -537,5 +586,12 @@
     "Cost": "200",
     "Requirement": "Must have the Wide Circuits II breakthrough.",
     "Description": "Your maximum Mana is increased by 1."
+  },
+  "wide_circuits_iv": {
+    "ID": "wide_circuits_iv",
+    "Name": "Wide Circuits IV",
+    "Cost": "250",
+    "Requirement": "Must have the Wide Circuits III breakthrough",
+    "Description": "Your maximum Mana is increased by 1.You may take this breakthrough multiple times. The effects stack."
   }
 }

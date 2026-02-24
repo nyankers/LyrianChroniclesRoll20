@@ -7,6 +7,8 @@ import (
 	"os"
 	"sort"
 	"strings"
+
+	"github.com/davecgh/go-spew/spew"
 )
 
 var otherCraftingAbilities []string = []string{
@@ -608,6 +610,8 @@ func main() {
 	if err = json.Unmarshal(bytes, &abilityMMap); err != nil {
 		panic(err)
 	}
+
+	spew.Dump(abilityMMap)
 	arraystring5 = "{"
 	i := 0
 	for id, macro := range abilityMMap {

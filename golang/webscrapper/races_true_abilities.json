@@ -2,12 +2,16 @@
    "absorb_ice": {
      "ID": "absorb_ice",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "yuki-onna"
+     ],
      "LevelRequired": 0,
      "Name": "Absorb Ice",
      "Keywords": "Rapid",
      "Range": "Self",
      "Requirement": "You're about to take Frost Damage.",
-     "Description": "You gain Damage Reduction 100 Frost against the triggering damage. After the damage resolves, if the caster is not you, someone allied to you or from an effect made by you or an ally, you gain Temporary HP until the end of the encounter equal to the amount of damage this ability reduces.",
+     "Description": "You gain Absorb Ice, which gives you Damage Reduction 100 Frost against the triggering damage. After the damage resolves, if the caster is not you, someone allied to you or from an effect made by you or an ally, you gain Temporary HP until the end of the encounter equal to the amount of damage this ability reduces.",
      "RPcost": "1 RP",
      "APcost": "",
      "MPcost": "",
@@ -16,9 +20,13 @@
    "adaptive_defense": {
      "ID": "adaptive_defense",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ancient-marionette"
+     ],
      "LevelRequired": 0,
      "Name": "Adaptive Defense",
-     "Keywords": "Rapid",
+     "Keywords": "",
      "Range": "Self",
      "Requirement": "-",
      "Description": "You take the Block Action. You then gain 4 Adaptive Defense (Type) which grants you Damage Reduction 4 against that damage type until the end of your next turn. You can only have one instance of Adaptive Defense at a time.",
@@ -30,6 +38,10 @@
    "amphibious": {
      "ID": "amphibious",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lizardfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Amphibious",
      "Keywords": "",
@@ -44,6 +56,10 @@
    "antennae": {
      "ID": "antennae",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "mothfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Antennae",
      "Keywords": "",
@@ -58,6 +74,10 @@
    "aqua_drill": {
      "ID": "aqua_drill",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "selkie"
+     ],
      "LevelRequired": 0,
      "Name": "Aqua Drill",
      "Keywords": "",
@@ -72,6 +92,10 @@
    "aquatic_fae": {
      "ID": "aquatic_fae",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "selkie"
+     ],
      "LevelRequired": 0,
      "Name": "Aquatic Fae",
      "Keywords": "",
@@ -86,6 +110,10 @@
    "ar_-_minds_eye": {
      "ID": "ar_-_minds_eye",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ar"
+     ],
      "LevelRequired": 0,
      "Name": "Ar - Mind's Eye",
      "Keywords": "",
@@ -100,6 +128,10 @@
    "bear_maul": {
      "ID": "bear_maul",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "bearfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Bear Maul",
      "Keywords": "Unarmed Strike",
@@ -114,6 +146,10 @@
    "bear_shock": {
      "ID": "bear_shock",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "bearfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Bear Shock",
      "Keywords": "",
@@ -128,12 +164,16 @@
    "blinding_dust": {
      "ID": "blinding_dust",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "mothfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Blinding Dust",
-     "Keywords": "Blind, Sidestep",
+     "Keywords": "Sidestep, Blinded",
      "Range": "5ft",
      "Requirement": "You are the target of an attack.",
-     "Description": "You flap your wings and blow dust in the eyes of the attacker, making them Blinded until the end of their attack. If their attack against you misses, you may Sidestep 5ft.",
+     "Description": "You flap your wings and blow dust in the eyes of the attacker, making them Blinded 6 until the end of their attack. If their attack against you misses, you may Sidestep 5ft.",
      "RPcost": "1 RP",
      "APcost": "",
      "MPcost": "2 MP",
@@ -142,6 +182,10 @@
    "cat_form": {
      "ID": "cat_form",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cait-sith"
+     ],
      "LevelRequired": 0,
      "Name": "Cat Form",
      "Keywords": "Transformation",
@@ -156,6 +200,10 @@
    "charge": {
      "ID": "charge",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "centaur"
+     ],
      "LevelRequired": 0,
      "Name": "Charge",
      "Keywords": "",
@@ -170,6 +218,10 @@
    "chilling_cold": {
      "ID": "chilling_cold",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "yuki-onna"
+     ],
      "LevelRequired": 0,
      "Name": "Chilling Cold",
      "Keywords": "",
@@ -184,6 +236,10 @@
    "consume_enemy": {
      "ID": "consume_enemy",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "jiangshi"
+     ],
      "LevelRequired": 0,
      "Name": "Consume Enemy",
      "Keywords": "Encounter Conclusion",
@@ -198,12 +254,16 @@
    "consume_fire": {
      "ID": "consume_fire",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "salamander"
+     ],
      "LevelRequired": 0,
      "Name": "Consume Fire",
      "Keywords": "Fire",
      "Range": "Self",
      "Requirement": "You're about to take Fire Damage.",
-     "Description": "You gain Damage Reduction 100 Fire against the triggering damage. If the attacker is not yourself or from an effect caused by you, you can then spend 2 Mana to heal for the original damage amount, up to 100 HP.",
+     "Description": "You gain Consume Fire, which gives you Damage Reduction 100 Fire against the triggering damage. If the attacker is not yourself or from an effect caused by you, you can then spend 2 Mana to heal for the original damage amount, up to 100 HP.",
      "RPcost": "1 RP",
      "APcost": "",
      "MPcost": "",
@@ -212,20 +272,46 @@
    "consume_lightning": {
      "ID": "consume_lightning",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "raijin"
+     ],
      "LevelRequired": 0,
      "Name": "Consume Lightning",
      "Keywords": "Rapid",
      "Range": "Self",
      "Requirement": "You are about to take Lightning damage",
-     "Description": "You gain Damage Reduction 100 Lightning for the triggering damage. If you reduce damage in any way from this ability and the cause of this damage is not you or from an effect caused by you, you gain Lightning Boost. Lightning Boost grants a damage bonus on your next Lightning Elemental Attack equal to the attacker’s power. This damage bonus is doubled on heavy attacks.",
+     "Description": "You gain Consume Lightning, which gives you Damage Reduction 100 Lightning for the triggering damage. If you reduce damage in any way from this ability and the cause of this damage is not you or from an effect caused by you, you gain Lightning Boost. Lightning Boost grants a damage bonus on your next Lightning Elemental Attack equal to the attacker’s power. This damage bonus is doubled on heavy attacks.",
      "RPcost": "1 RP",
      "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
+   "corpse_puppetry": {
+     "ID": "corpse_puppetry",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "nekomata"
+     ],
+     "LevelRequired": 0,
+     "Name": "Corpse Puppetry",
+     "Keywords": "",
+     "Range": "60ft",
+     "Requirement": "Target must be dead.",
+     "Description": "You may control a corpse less than a week old within 30ft of you to perform simple actions, such as moving or talking. A corpse used this way has no combat stats and cannot attack.",
+     "RPcost": "",
+     "APcost": "4 AP",
      "MPcost": "",
      "Othercost": ""
    },
    "d_-_mana_burst": {
      "ID": "d_-_mana_burst",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dx"
+     ],
      "LevelRequired": 0,
      "Name": "D' - Mana Burst",
      "Keywords": "",
@@ -240,6 +326,10 @@
    "darkvision_(passive)": {
      "ID": "darkvision_(passive)",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "unseelie"
+     ],
      "LevelRequired": 0,
      "Name": "Darkvision (passive)",
      "Keywords": "",
@@ -254,6 +344,10 @@
    "demonblood_regeneration": {
      "ID": "demonblood_regeneration",
      "ClassID": null,
+     "RaceID": [
+       "demon"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Demonblood Regeneration",
      "Keywords": "",
@@ -265,9 +359,31 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "dense_frame": {
+     "ID": "dense_frame",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cowfolk"
+     ],
+     "LevelRequired": 0,
+     "Name": "Dense Frame",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "When you would be pushed back by an effect, you are shoved for 5ft less.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "destroy_ground": {
      "ID": "destroy_ground",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "gnome"
+     ],
      "LevelRequired": 0,
      "Name": "Destroy Ground",
      "Keywords": "",
@@ -282,6 +398,10 @@
    "divine_providence": {
      "ID": "divine_providence",
      "ClassID": null,
+     "RaceID": [
+       "human"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Divine Providence",
      "Keywords": "Rage",
@@ -296,6 +416,10 @@
    "divine_release": {
      "ID": "divine_release",
      "ClassID": null,
+     "RaceID": [
+       "demon"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Divine Release",
      "Keywords": "Transformation, Rage",
@@ -307,9 +431,31 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "dog_form": {
+     "ID": "dog_form",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cu-sith"
+     ],
+     "LevelRequired": 0,
+     "Name": "Dog Form",
+     "Keywords": "Transformation",
+     "Range": "Self",
+     "Requirement": "",
+     "Description": "You transform into your Dog Form, becoming a medium size dog. You lose 2 guard and 4 block, but gain a +1 Size bonus to Evasion and Dodge.While in Dog Form, you can only make melee unarmed attacks and you are considered proficient in these attacks. If you take damage in Dog Form, you immediately return to your normal form. You can dispel this form for 0 AP or 1 RP.",
+     "RPcost": "1 RP",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "downburst": {
      "ID": "downburst",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "harpy"
+     ],
      "LevelRequired": 0,
      "Name": "Downburst",
      "Keywords": "Lock On, Spell, Wind",
@@ -324,6 +470,10 @@
    "draconic_presence": {
      "ID": "draconic_presence",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ryujin"
+     ],
      "LevelRequired": 0,
      "Name": "Draconic Presence",
      "Keywords": "",
@@ -338,9 +488,13 @@
    "dragons_breath": {
      "ID": "dragons_breath",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ryujin"
+     ],
      "LevelRequired": 0,
      "Name": "Dragon's Breath",
-     "Keywords": "Water, Lightning, Fire, Arcane, Wind, Frost",
+     "Keywords": "Water, Lightning, Fire, Arcane, Wind, Frost, Scatter",
      "Range": "Self",
      "Requirement": "",
      "Description": "You exhale a devastating breath attack, making a ranged Light attack against all targets in a 30ft long 60 degree cone. This attack deals the same type of damage as your element chosen in Ryujin's Mastery.",
@@ -352,6 +506,10 @@
    "drink_to_battle": {
      "ID": "drink_to_battle",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "oni"
+     ],
      "LevelRequired": 0,
      "Name": "Drink to Battle",
      "Keywords": "Encounter Start",
@@ -366,12 +524,16 @@
    "dullahans_mount": {
      "ID": "dullahans_mount",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dullahan"
+     ],
      "LevelRequired": 0,
      "Name": "Dullahan's Mount",
      "Keywords": "",
      "Range": "Self",
      "Requirement": "",
-     "Description": "You conjure up a black horse that becomes part of you. You immediately mount when using this ability and upon dismounting, the horse vanishes. While mounted, your movement speed is increased by 30ft and you are considered a large creature, but you may only move in a straight line. When attempting to move through 5ft wide spaces, it is considered difficult terrain for you. You also suffer a -10 penalty to most acrobatics, climbing and swimming checks while mounted.Any attack against the horse is considered an attack against you instead. As the horse is considered part of you, any displacement or teleport abilities move the horse alongside with you. You may dismount by spending 0 AP.",
+     "Description": "You conjure up a black horse that becomes part of you. You immediately mount when using this ability and upon dismounting, the horse vanishes. While mounted, your movement speed is increased by 30ft and you are considered a large creature, but you may only move in a straight line. When attempting to move through 5ft wide spaces, it is considered difficult terrain for you. You also suffer a -10 penalty to most finesse athletics checks as well as climbing and swimming checks while mounted.Any attack against the horse is considered an attack against you instead. As the horse is considered part of you, any displacement or teleport abilities move the horse alongside with you. You may dismount by spending 0 AP.",
      "RPcost": "",
      "APcost": "1 AP",
      "MPcost": "",
@@ -380,6 +542,10 @@
    "elemental_mastery:_dark": {
      "ID": "elemental_mastery:_dark",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "unseelie"
+     ],
      "LevelRequired": 0,
      "Name": "Elemental Mastery: Dark",
      "Keywords": "",
@@ -394,6 +560,10 @@
    "elemental_mastery:_fire": {
      "ID": "elemental_mastery:_fire",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "phoenix"
+     ],
      "LevelRequired": 0,
      "Name": "Elemental Mastery: Fire",
      "Keywords": "",
@@ -408,6 +578,10 @@
    "elemental_mastery:_holy": {
      "ID": "elemental_mastery:_holy",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "suryan"
+     ],
      "LevelRequired": 0,
      "Name": "Elemental Mastery: Holy",
      "Keywords": "",
@@ -422,6 +596,10 @@
    "elemental_mastery:_lightning": {
      "ID": "elemental_mastery:_lightning",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "raijin"
+     ],
      "LevelRequired": 0,
      "Name": "Elemental Mastery: Lightning",
      "Keywords": "",
@@ -436,6 +614,10 @@
    "enduring_warmth": {
      "ID": "enduring_warmth",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "salamander"
+     ],
      "LevelRequired": 0,
      "Name": "Enduring Warmth",
      "Keywords": "",
@@ -450,6 +632,10 @@
    "escape_artist": {
      "ID": "escape_artist",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "rabbitfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Escape Artist",
      "Keywords": "",
@@ -464,6 +650,10 @@
    "eternal_vigil": {
      "ID": "eternal_vigil",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "nio"
+     ],
      "LevelRequired": 0,
      "Name": "Eternal Vigil",
      "Keywords": "",
@@ -478,6 +668,10 @@
    "explosive_advance": {
      "ID": "explosive_advance",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "horse-folk"
+     ],
      "LevelRequired": 0,
      "Name": "Explosive Advance",
      "Keywords": "Encounter Start",
@@ -492,6 +686,10 @@
    "extra_arms": {
      "ID": "extra_arms",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "spiderfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Extra Arms",
      "Keywords": "Quick",
@@ -506,6 +704,10 @@
    "fading_counter": {
      "ID": "fading_counter",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "kitsune"
+     ],
      "LevelRequired": 0,
      "Name": "Fading Counter",
      "Keywords": "Counter, Illusion",
@@ -520,6 +722,10 @@
    "faerie_eyes:_calling": {
      "ID": "faerie_eyes:_calling",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "willo-wisp"
+     ],
      "LevelRequired": 0,
      "Name": "Faerie Eyes: Calling",
      "Keywords": "Charm, Illusion",
@@ -534,6 +740,10 @@
    "faerie_flash": {
      "ID": "faerie_flash",
      "ClassID": null,
+     "RaceID": [
+       "fae"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Faerie Flash",
      "Keywords": "Teleport, Rage",
@@ -548,6 +758,10 @@
    "faerie_flash_ii": {
      "ID": "faerie_flash_ii",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "high-fae"
+     ],
      "LevelRequired": 0,
      "Name": "Faerie Flash II",
      "Keywords": "Teleport",
@@ -562,6 +776,10 @@
    "fast_runner": {
      "ID": "fast_runner",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "rabbitfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Fast Runner",
      "Keywords": "",
@@ -573,12 +791,34 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "feign_death": {
+     "ID": "feign_death",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "nekomata"
+     ],
+     "LevelRequired": 0,
+     "Name": "Feign Death",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "The first time you enter the Downed state in an encounter, you may use Play Dead as a reaction for 0 RP. In addition, you gain a +10 bonus to playing dead.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "fiery_rebirth": {
      "ID": "fiery_rebirth",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "phoenix"
+     ],
      "LevelRequired": 0,
      "Name": "Fiery Rebirth",
-     "Keywords": "Downed",
+     "Keywords": "Downed, Blanketing",
      "Range": "Self",
      "Requirement": "You’ve suffered a mortal wound.",
      "Description": "You regain HP until you are at 1 HP, stand up from prone and deal Light full pierce fire damage to all enemies within 5ft of you.After using this ability, the mortal wound condition is removed from you and you cannot use Fiery Rebirth again for the rest of the arc.",
@@ -590,6 +830,10 @@
    "fight_or_flight": {
      "ID": "fight_or_flight",
      "ClassID": null,
+     "RaceID": [
+       "chimera"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Fight or Flight",
      "Keywords": "Rage",
@@ -604,9 +848,13 @@
    "fireball": {
      "ID": "fireball",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "salamander"
+     ],
      "LevelRequired": 0,
      "Name": "Fireball",
-     "Keywords": "Fire, Spell",
+     "Keywords": "Fire, Spell, Scatter",
      "Range": "60ft",
      "Requirement": "-",
      "Description": "You hurl a Fireball at a 15x15ft area, making a Light Attack that deals Fire Damage against all units in the area.",
@@ -618,6 +866,10 @@
    "flight": {
      "ID": "flight",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "tengu"
+     ],
      "LevelRequired": 0,
      "Name": "Flight",
      "Keywords": "",
@@ -632,6 +884,10 @@
    "forest_walker": {
      "ID": "forest_walker",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dryad"
+     ],
      "LevelRequired": 0,
      "Name": "Forest Walker",
      "Keywords": "",
@@ -646,6 +902,10 @@
    "gnome_claws": {
      "ID": "gnome_claws",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "gnome"
+     ],
      "LevelRequired": 0,
      "Name": "Gnome Claws",
      "Keywords": "",
@@ -657,9 +917,31 @@
      "MPcost": "3 MP",
      "Othercost": ""
    },
+   "goring_charge": {
+     "ID": "goring_charge",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "bullfolk"
+     ],
+     "LevelRequired": 0,
+     "Name": "Goring Charge",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "You lower your head and charge in a direction with your horns. You move X times your speed in a straight line. If you move at least 15 feet, you make a Heavy attack against the first target in your path. They may sidestep this attack for 1 RP.If a target sidesteps your attack, you continue charging for your maximum distance or until you hit an object. If you charge into another creature, you make a Heavy attack against them as well and the process continues. You do not provoke attacks of opportunity from creatures that sidestepped your attack for this movement.If the object you charge into is destroyable, the GM may also ask you to make a Heavy attack against it.These attacks are considered unarmed attacks that you are proficient in, even if you normally wouldn't be. It does not benefit from any sort of gauntlet bonuses.",
+     "RPcost": "",
+     "APcost": "X AP",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "graceful_landing": {
      "ID": "graceful_landing",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "catfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Graceful Landing",
      "Keywords": "",
@@ -674,6 +956,10 @@
    "gravitational_ki": {
      "ID": "gravitational_ki",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "oni"
+     ],
      "LevelRequired": 0,
      "Name": "Gravitational Ki",
      "Keywords": "",
@@ -685,9 +971,31 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "grudge": {
+     "ID": "grudge",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "nekomata"
+     ],
+     "LevelRequired": 0,
+     "Name": "Grudge",
+     "Keywords": "",
+     "Range": "Sight",
+     "Requirement": "An enemy hits you with an attack.",
+     "Description": "You make a Light attack against the attacker.",
+     "RPcost": "0 RP",
+     "APcost": "",
+     "MPcost": "1 MP",
+     "Othercost": ""
+   },
    "guard_dog": {
      "ID": "guard_dog",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dogfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Guard Dog",
      "Keywords": "",
@@ -699,9 +1007,31 @@
      "MPcost": "1 MP",
      "Othercost": ""
    },
+   "haunting_bark": {
+     "ID": "haunting_bark",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cu-sith"
+     ],
+     "LevelRequired": 0,
+     "Name": "Haunting Bark",
+     "Keywords": "Mind Affecting, Fear, Shaken, Full Pierce, Sound",
+     "Range": "60ft",
+     "Requirement": "Must be in Dog Form.",
+     "Description": "You bark at an enemy forcing them to make a Save or become shaken until the end of their next turn. The third time in a combat you use this against the same target, they also take Light Full Pierce Lightning damage in addition to the shaken effect if they fail their save.",
+     "RPcost": "",
+     "APcost": "1 AP",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "headless": {
      "ID": "headless",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dullahan"
+     ],
      "LevelRequired": 0,
      "Name": "Headless",
      "Keywords": "",
@@ -716,6 +1046,10 @@
    "hearthlight": {
      "ID": "hearthlight",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "willo-wisp"
+     ],
      "LevelRequired": 0,
      "Name": "Hearthlight",
      "Keywords": "",
@@ -730,6 +1064,10 @@
    "hibernate": {
      "ID": "hibernate",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "bearfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Hibernate",
      "Keywords": "",
@@ -744,6 +1082,10 @@
    "hopping_zombie": {
      "ID": "hopping_zombie",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "jiangshi"
+     ],
      "LevelRequired": 0,
      "Name": "Hopping Zombie",
      "Keywords": "",
@@ -758,12 +1100,16 @@
    "horse_body": {
      "ID": "horse_body",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "centaur"
+     ],
      "LevelRequired": 0,
      "Name": "Horse Body",
      "Keywords": "",
      "Range": "",
      "Requirement": "",
-     "Description": "You may carry an ally on your back without lowering your movement speed and your Burden is increased by 2. However, you are considered a large creature. When attempting to move through 5ft wide spaces, it is considered difficult terrain for you and many humanoid buildings will struggle to accommodate you. You also suffer a -10 penalty on most acrobatics checks, as well as a -10 penalty on climbing and swimming checks.Picking up an ally takes 1 AP and they cannot take AP actions while on your back. You or they may spend 1 AP to dismount and act like normal.",
+     "Description": "You may carry an ally on your back without lowering your movement speed and your Burden is increased by 2. However, you are considered a large creature. When attempting to move through 5ft wide spaces, it is considered difficult terrain for you and many humanoid buildings will struggle to accommodate you. You also suffer a -10 penalty on most finesse athletics checks, as well as a -10 penalty on climbing and swimming checks.Picking up an ally takes 1 AP and they cannot take AP actions while on your back. You or they may spend 1 AP to dismount and act like normal.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -772,12 +1118,16 @@
    "horse_step_acceleration": {
      "ID": "horse_step_acceleration",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "horse-folk"
+     ],
      "LevelRequired": 0,
      "Name": "Horse Step Acceleration",
      "Keywords": "",
      "Range": "Self",
      "Requirement": "Must be the first action you take on your turn.",
-     "Description": "Increases movement speed by 30.  All of your movement is now Line Movement (You may only move in a straight line when making a movement action).",
+     "Description": "You gain Horse Step Acceleration until the start of your next turn, which increases movement speed by 30.  All of your movement is now Line Movement (You may only move in a straight line when making a movement action).",
      "RPcost": "",
      "APcost": "0 AP",
      "MPcost": "",
@@ -786,6 +1136,10 @@
    "hover": {
      "ID": "hover",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "willo-wisp"
+     ],
      "LevelRequired": 0,
      "Name": "Hover",
      "Keywords": "",
@@ -800,6 +1154,10 @@
    "hug_tight": {
      "ID": "hug_tight",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lamiafolk"
+     ],
      "LevelRequired": 0,
      "Name": "Hug tight",
      "Keywords": "Full Pierce, Sure Hit, Rapid",
@@ -814,6 +1172,10 @@
    "human_adaptability": {
      "ID": "human_adaptability",
      "ClassID": null,
+     "RaceID": [
+       "human"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Human Adaptability",
      "Keywords": "Errand",
@@ -828,12 +1190,16 @@
    "hunting_wolf": {
      "ID": "hunting_wolf",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "wolf-folk"
+     ],
      "LevelRequired": 0,
      "Name": "Hunting Wolf",
      "Keywords": "",
      "Range": "Self",
-     "Requirement": "An enemy is below half HP.",
-     "Description": "You may move towards a target below half HP as if you had spent X AP on movement. Your movement speed is doubled for this movement.",
+     "Requirement": "The target enemy is below half HP.",
+     "Description": "You may move towards the target as if you had spent X AP on movement. Your movement speed is doubled for this movement.",
      "RPcost": "",
      "APcost": "X AP",
      "MPcost": "",
@@ -842,6 +1208,10 @@
    "icicle_nail": {
      "ID": "icicle_nail",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "yuki-onna"
+     ],
      "LevelRequired": 0,
      "Name": "Icicle Nail",
      "Keywords": "Frost, Slow, Spell",
@@ -856,12 +1226,16 @@
    "instinct": {
      "ID": "instinct",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "rabbitfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Instinct",
      "Keywords": "",
      "Range": "",
      "Requirement": "",
-     "Description": "The first time per encounter that you are attacked by a Stealth attack or an attack while you're surprised, you may still react to it. In addition, when you are about to take an action that leads to grave harm or death (example: The enemy has an instant death ability), you can receive a premonition from the DM.",
+     "Description": "The first time per encounter that you are attacked by a Stealth attack, that attack does not gain the Trick Attack benefit. If you become the target of an attack while you're surprised, you may still react to it and any special properties of an attack that require you to be unaware of the attack (such as Killshot) do not apply to it. In addition, when you are about to take an action that leads to grave harm or death (example: The enemy has an instant death ability), you can receive a premonition from the DM.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -870,6 +1244,10 @@
    "just_a_hug": {
      "ID": "just_a_hug",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lamiafolk"
+     ],
      "LevelRequired": 0,
      "Name": "Just a hug",
      "Keywords": "Grapple",
@@ -884,6 +1262,10 @@
    "last_rites": {
      "ID": "last_rites",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "anubis"
+     ],
      "LevelRequired": 0,
      "Name": "Last Rites",
      "Keywords": "",
@@ -898,6 +1280,10 @@
    "lightning_weapon": {
      "ID": "lightning_weapon",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "raijin"
+     ],
      "LevelRequired": 0,
      "Name": "Lightning Weapon",
      "Keywords": "",
@@ -912,6 +1298,10 @@
    "lir_-_predict": {
      "ID": "lir_-_predict",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lir"
+     ],
      "LevelRequired": 0,
      "Name": "Lir - Predict",
      "Keywords": "",
@@ -926,6 +1316,10 @@
    "loyalty": {
      "ID": "loyalty",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dogfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Loyalty",
      "Keywords": "",
@@ -940,6 +1334,10 @@
    "lu_-_dense_mana": {
      "ID": "lu_-_dense_mana",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lu"
+     ],
      "LevelRequired": 0,
      "Name": "Lu - Dense Mana",
      "Keywords": "",
@@ -954,6 +1352,10 @@
    "lucid_sleep": {
      "ID": "lucid_sleep",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "high-fae"
+     ],
      "LevelRequired": 0,
      "Name": "Lucid Sleep",
      "Keywords": "",
@@ -968,6 +1370,10 @@
    "mana_eater": {
      "ID": "mana_eater",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ancient-marionette"
+     ],
      "LevelRequired": 0,
      "Name": "Mana Eater",
      "Keywords": "",
@@ -982,6 +1388,10 @@
    "mining_expertise": {
      "ID": "mining_expertise",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "gnome"
+     ],
      "LevelRequired": 0,
      "Name": "Mining Expertise",
      "Keywords": "",
@@ -996,6 +1406,10 @@
    "natures_grasp": {
      "ID": "natures_grasp",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "dryad"
+     ],
      "LevelRequired": 0,
      "Name": "Nature's Grasp",
      "Keywords": "Root, Earth",
@@ -1010,6 +1424,10 @@
    "ni_-_emergency_maneuvers": {
      "ID": "ni_-_emergency_maneuvers",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ni"
+     ],
      "LevelRequired": 0,
      "Name": "Ni - Emergency Maneuvers",
      "Keywords": "",
@@ -1024,6 +1442,10 @@
    "nightvision": {
      "ID": "nightvision",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "mothfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Nightvision",
      "Keywords": "",
@@ -1038,12 +1460,16 @@
    "none_-_instinct": {
      "ID": "none_-_instinct",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "none"
+     ],
      "LevelRequired": 0,
      "Name": "None - Instinct",
      "Keywords": "",
      "Range": "",
      "Requirement": "",
-     "Description": "The first time per encounter that you are attacked by a Stealth attack or an attack while you're surprised, you may still react to it. In addition, when you are about to take an action that leads to grave harm or death (example: The enemy has an instant death ability), you can receive a premonition from the DM.",
+     "Description": "The first time per encounter that you are attacked by a Stealth attack, that attack does not gain the Trick Attack benefit. If you become the target of an attack while you're surprised, you may still react to it and any special properties of an attack that require you to be unaware of the attack (such as Killshot) do not apply to it. In addition, when you are about to take an action that leads to grave harm or death (example: The enemy has an instant death ability), you can receive a premonition from the DM.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -1052,6 +1478,10 @@
    "own_mount": {
      "ID": "own_mount",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "centaur"
+     ],
      "LevelRequired": 0,
      "Name": "Own Mount",
      "Keywords": "",
@@ -1066,12 +1496,16 @@
    "pack_tactics": {
      "ID": "pack_tactics",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "wolf-folk"
+     ],
      "LevelRequired": 0,
      "Name": "Pack Tactics",
      "Keywords": "Quick",
      "Range": "Sight",
      "Requirement": "",
-     "Description": "Select a target within range. Until the end of your turn, while the target has one of your allies within 5ft of it, you gain a +2 bonus on accuracy checks for melee attacks against that target.",
+     "Description": "Select a target within range. Until the end of your turn, while the target has one of your allies within 5ft of it, you gain Pack Tactics, which gives a +2 bonus on accuracy checks for melee attacks against that target.",
      "RPcost": "",
      "APcost": "0 AP",
      "MPcost": "",
@@ -1080,6 +1514,10 @@
    "panda_roll": {
      "ID": "panda_roll",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "red-pandafolk"
+     ],
      "LevelRequired": 0,
      "Name": "Panda Roll",
      "Keywords": "",
@@ -1094,6 +1532,10 @@
    "panda_stance": {
      "ID": "panda_stance",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "red-pandafolk"
+     ],
      "LevelRequired": 0,
      "Name": "Panda Stance",
      "Keywords": "Stance",
@@ -1108,6 +1550,10 @@
    "phoenix_tears": {
      "ID": "phoenix_tears",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "phoenix"
+     ],
      "LevelRequired": 0,
      "Name": "Phoenix Tears",
      "Keywords": "Encounter Conclusion",
@@ -1122,6 +1568,10 @@
    "plaguebringer": {
      "ID": "plaguebringer",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ratfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Plaguebringer",
      "Keywords": "",
@@ -1136,6 +1586,10 @@
    "prehensile_tail": {
      "ID": "prehensile_tail",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ratfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Prehensile Tail",
      "Keywords": "",
@@ -1147,9 +1601,31 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "provide_milk": {
+     "ID": "provide_milk",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cowfolk"
+     ],
+     "LevelRequired": 0,
+     "Name": "Provide Milk",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "You may spend an EP to produce 400u worth of milk.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "regrowing_limbs": {
      "ID": "regrowing_limbs",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lizardfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Regrowing Limbs",
      "Keywords": "",
@@ -1164,6 +1640,10 @@
    "revealing_light": {
      "ID": "revealing_light",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "suryan"
+     ],
      "LevelRequired": 0,
      "Name": "Revealing Light",
      "Keywords": "",
@@ -1175,9 +1655,31 @@
      "MPcost": "2 MP",
      "Othercost": ""
    },
+   "ruminant_metabolism": {
+     "ID": "ruminant_metabolism",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cowfolk"
+     ],
+     "LevelRequired": 0,
+     "Name": "Ruminant Metabolism",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "You can go a day without eating before starvation applies.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "ryujins_mastery": {
      "ID": "ryujins_mastery",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ryujin"
+     ],
      "LevelRequired": 0,
      "Name": "Ryujin's Mastery",
      "Keywords": "",
@@ -1189,9 +1691,31 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "scent": {
+     "ID": "scent",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cu-sith"
+     ],
+     "LevelRequired": 0,
+     "Name": "Scent",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "You gain a +5 Expertise bonus to Perception (Smell).",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "scent_of_blood": {
      "ID": "scent_of_blood",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "wolf-folk"
+     ],
      "LevelRequired": 0,
      "Name": "Scent of Blood",
      "Keywords": "Quick",
@@ -1206,6 +1730,10 @@
    "scurry_away": {
      "ID": "scurry_away",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ratfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Scurry Away",
      "Keywords": "",
@@ -1220,6 +1748,10 @@
    "seal_cloak": {
      "ID": "seal_cloak",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "selkie"
+     ],
      "LevelRequired": 0,
      "Name": "Seal Cloak",
      "Keywords": "Transformation",
@@ -1234,12 +1766,16 @@
    "slime_body": {
      "ID": "slime_body",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "slimefolk"
+     ],
      "LevelRequired": 0,
      "Name": "Slime Body",
      "Keywords": "",
      "Range": "Self",
      "Requirement": "-",
-     "Description": "You gain Damage Reduction 100 against physical damage from the triggering attack.",
+     "Description": "You gain Slime Body, which gives Damage Reduction 100 against physical damage against the next attack.",
      "RPcost": "1 RP",
      "APcost": "",
      "MPcost": "1 MP",
@@ -1248,6 +1784,10 @@
    "solar_radiance": {
      "ID": "solar_radiance",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "suryan"
+     ],
      "LevelRequired": 0,
      "Name": "Solar Radiance",
      "Keywords": "",
@@ -1262,6 +1802,10 @@
    "soul_strike": {
      "ID": "soul_strike",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "cait-sith"
+     ],
      "LevelRequired": 0,
      "Name": "Soul Strike",
      "Keywords": "Killing Blow, Overcharge",
@@ -1276,6 +1820,10 @@
    "speak_with_dead": {
      "ID": "speak_with_dead",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "anubis"
+     ],
      "LevelRequired": 0,
      "Name": "Speak with dead",
      "Keywords": "",
@@ -1290,6 +1838,10 @@
    "spider_climb": {
      "ID": "spider_climb",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "spiderfolk"
+     ],
      "LevelRequired": 0,
      "Name": "Spider Climb",
      "Keywords": "",
@@ -1304,6 +1856,10 @@
    "spirited_bravado": {
      "ID": "spirited_bravado",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "oni"
+     ],
      "LevelRequired": 0,
      "Name": "Spirited Bravado",
      "Keywords": "",
@@ -1318,6 +1874,10 @@
    "spiritual_sync": {
      "ID": "spiritual_sync",
      "ClassID": null,
+     "RaceID": [
+       "youkai"
+     ],
+     "SubraceID": null,
      "LevelRequired": 0,
      "Name": "Spiritual Sync",
      "Keywords": "Rage",
@@ -1332,6 +1892,10 @@
    "statue_form": {
      "ID": "statue_form",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "nio"
+     ],
      "LevelRequired": 0,
      "Name": "Statue Form",
      "Keywords": "Transformation",
@@ -1346,12 +1910,16 @@
    "stoneskin": {
      "ID": "stoneskin",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "nio"
+     ],
      "LevelRequired": 0,
      "Name": "Stoneskin",
      "Keywords": "",
      "Range": "",
      "Requirement": "",
-     "Description": "You gain +1 guard and +4 block, but also -2 evasion and dodge.",
+     "Description": "You gain Stoneskin, which grants +1 guard and +4 block, but also -2 evasion and dodge.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -1360,6 +1928,10 @@
    "store/consume_item": {
      "ID": "store/consume_item",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "slimefolk"
+     ],
      "LevelRequired": 0,
      "Name": "Store/Consume Item",
      "Keywords": "",
@@ -1374,6 +1946,10 @@
    "swallow_acrobatics": {
      "ID": "swallow_acrobatics",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "harpy"
+     ],
      "LevelRequired": 0,
      "Name": "Swallow Acrobatics",
      "Keywords": "",
@@ -1388,6 +1964,10 @@
    "tengu_aura_weapon": {
      "ID": "tengu_aura_weapon",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "tengu"
+     ],
      "LevelRequired": 0,
      "Name": "Tengu Aura Weapon",
      "Keywords": "Aura",
@@ -1402,6 +1982,10 @@
    "tengu_mask": {
      "ID": "tengu_mask",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "tengu"
+     ],
      "LevelRequired": 0,
      "Name": "Tengu Mask",
      "Keywords": "Presence Concealment",
@@ -1416,6 +2000,10 @@
    "thermal_vision": {
      "ID": "thermal_vision",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "ancient-marionette"
+     ],
      "LevelRequired": 0,
      "Name": "Thermal Vision",
      "Keywords": "",
@@ -1427,15 +2015,37 @@
      "MPcost": "",
      "Othercost": ""
    },
+   "thick_skull": {
+     "ID": "thick_skull",
+     "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "bullfolk"
+     ],
+     "LevelRequired": 0,
+     "Name": "Thick Skull",
+     "Keywords": "",
+     "Range": "",
+     "Requirement": "",
+     "Description": "When you would get Dazed, you may make a Save against the effect even if it would normally not allow for one. If you already had to make a save to avoid it, then you don’t get another.",
+     "RPcost": "",
+     "APcost": "",
+     "MPcost": "",
+     "Othercost": ""
+   },
    "tiny_pixie": {
      "ID": "tiny_pixie",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "pixie"
+     ],
      "LevelRequired": 0,
      "Name": "Tiny Pixie",
      "Keywords": "",
      "Range": "",
      "Requirement": "",
-     "Description": "Your size is tiny and you are able to occupy the same square as an ally or enemy. Your Toughness is reduced by 2 and your Agility is increased by 2.",
+     "Description": "Your size is tiny and you are able to occupy the same square as an ally or enemy. Your Toughness is reduced by 2 and your Agility is increased by 2.When walking (and not hovering or flying), your movement speed is reduced to 5ft.",
      "RPcost": "",
      "APcost": "",
      "MPcost": "",
@@ -1444,6 +2054,10 @@
    "tireless_undead": {
      "ID": "tireless_undead",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "jiangshi"
+     ],
      "LevelRequired": 0,
      "Name": "Tireless Undead",
      "Keywords": "",
@@ -1458,6 +2072,10 @@
    "torture_techniques": {
      "ID": "torture_techniques",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "unseelie"
+     ],
      "LevelRequired": 0,
      "Name": "Torture Techniques",
      "Keywords": "Slow, Unbalanced, Bleeding",
@@ -1472,6 +2090,10 @@
    "un_-_graceful_service": {
      "ID": "un_-_graceful_service",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "un"
+     ],
      "LevelRequired": 0,
      "Name": "Un - Graceful Service",
      "Keywords": "",
@@ -1486,6 +2108,10 @@
    "vi_-_first_response": {
      "ID": "vi_-_first_response",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "vi"
+     ],
      "LevelRequired": 0,
      "Name": "Vi - First Response",
      "Keywords": "",
@@ -1500,6 +2126,10 @@
    "warm_together": {
      "ID": "warm_together",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "lamiafolk"
+     ],
      "LevelRequired": 0,
      "Name": "Warm Together",
      "Keywords": "",
@@ -1514,6 +2144,10 @@
    "weighing_the_heart": {
      "ID": "weighing_the_heart",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "anubis"
+     ],
      "LevelRequired": 0,
      "Name": "Weighing the Heart",
      "Keywords": "",
@@ -1528,9 +2162,13 @@
    "wi_-_presence_concealment": {
      "ID": "wi_-_presence_concealment",
      "ClassID": null,
+     "RaceID": null,
+     "SubraceID": [
+       "wi"
+     ],
      "LevelRequired": 0,
      "Name": "Wi - Presence Concealment",
-     "Keywords": "Presence Concealment",
+     "Keywords": "Presence Concealment, Stealth",
      "Range": "Self",
      "Requirement": "-",
      "Description": "By suppressing your mana output you conceal your presence, gaining Presence Concealment.  You cannot use any abilites that cost mana or any abilities with the aura keyword while in Presence Concealment.  You can end this effect for 0 RP but the inability to use abilities that cost mana or abilities with the aura keyword persists until the end of your next turn.",

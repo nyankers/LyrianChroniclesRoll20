@@ -1,49 +1,56 @@
 {
-  "8_eyes": {
-    "ID": "8_eyes",
-    "Name": "8 Eyes",
+  "8_eyes_(spiderfolk)": {
+    "ID": "8_eyes_(spiderfolk)",
+    "Name": "8 Eyes (Spiderfolk)",
     "Cost": "100",
     "Requirement": "Must be a spiderfolk.",
     "Description": "You may have up to 8 Mystic Eyes instead of the regular 2."
   },
-  "angelblooded": {
-    "ID": "angelblooded",
-    "Name": "Angelblooded",
+  "angelblooded_(human)_(restricted)": {
+    "ID": "angelblooded_(human)_(restricted)",
+    "Name": "Angelblooded (Human) (Restricted)",
     "Cost": "0",
     "Requirement": "Must be a human and only a human. Requires GM Approval",
     "Description": "You have the blood of angels in you. You may purchase the Angelblooded class."
   },
-  "become_fire": {
-    "ID": "become_fire",
-    "Name": "Become Fire",
+  "arachne_(spiderfolk)": {
+    "ID": "arachne_(spiderfolk)",
+    "Name": "Arachne (Spiderfolk)",
+    "Cost": "0",
+    "Requirement": "Must be a spiderfolk. Can only be taken at character creation.",
+    "Description": "You lose your extra arms racial ability. In exchange, you become Large size and your max burden is increased by 2. When attempting to move through 5ft wide spaces, it is considered difficult terrain for you and many humanoid buildings will struggle to accommodate you. You also suffer a -10 penalty to swimming checks, but you may climb through your spider climb ability at your normal speed instead of half speed.In addition, you count as mounted for the purposes of abilities that require you to be mounted. This does not let you be a mount to other creatures."
+  },
+  "become_fire_(salamander)": {
+    "ID": "become_fire_(salamander)",
+    "Name": "Become Fire (Salamander)",
     "Cost": "200",
     "Requirement": "Must be a Salamander.",
     "Description": "The RP cost of Consume Fire is reduced to 0."
   },
-  "become_ice": {
-    "ID": "become_ice",
-    "Name": "Become Ice",
+  "become_ice_(yuki-onna)": {
+    "ID": "become_ice_(yuki-onna)",
+    "Name": "Become Ice (Yuki-Onna)",
     "Cost": "200",
     "Requirement": "Must be a Yuki-Onna.",
     "Description": "The RP cost of Absorb Ice is reduced to 0 the first time you use it per round. Cost is reset back to 0 when it becomes your turn"
   },
-  "become_lightning": {
-    "ID": "become_lightning",
-    "Name": "Become Lightning",
+  "become_lightning_(raijin)": {
+    "ID": "become_lightning_(raijin)",
+    "Name": "Become Lightning (Raijin)",
     "Cost": "200",
     "Requirement": "Must be a Raijin Youkai.",
     "Description": "The RP cost of Consume Lightning is reduced to 0 the first time you use it per round. Cost is reset back to 0 when it becomes your turn. Any Power bonus you gain from using Consume Lightning does not stack."
   },
-  "blend_in": {
-    "ID": "blend_in",
-    "Name": "Blend In",
+  "blend_in_(slimefolk)": {
+    "ID": "blend_in_(slimefolk)",
+    "Name": "Blend In (Slimefolk)",
     "Cost": "200",
     "Requirement": "Must be a Slimefolk.",
     "Description": "You disguise your appearance using magic to be that of another race.  This skill does not allow you to change your appearance at will, but instead lets you appear as you would as a different race.  You choose this race when this breakthrough is picked up and cannot change it.In addition, the first time you use Slime Body while disguised in this way, it costs 0 RP instead of 1 RP.  This effect does not work if the attacker knows that you are a Slimefolk."
   },
-  "blessed_by_kari": {
-    "ID": "blessed_by_kari",
-    "Name": "Blessed by Kari",
+  "blessed_by_kari_(human)": {
+    "ID": "blessed_by_kari_(human)",
+    "Name": "Blessed by Kari (Human)",
     "Cost": "100",
     "Requirement": "Must be a Human.",
     "Description": "After using Divine Providence you may use it a second time before resting, but the cost increases to 1 RP. This second use must pick a different option then your first one."
@@ -55,9 +62,16 @@
     "Requirement": "-",
     "Description": "You gain a +5 bonus to intimidation skill checks against targets with less Fitness than you."
   },
-  "combat_kitty": {
-    "ID": "combat_kitty",
-    "Name": "Combat Kitty",
+  "celestial_dragon_(ryujin)": {
+    "ID": "celestial_dragon_(ryujin)",
+    "Name": "Celestial Dragon (Ryujin)",
+    "Cost": "300",
+    "Requirement": "Must be a Ryujin. Can only be taken at character creation.",
+    "Description": "Your elemental mastery from your Ryujin's Mastery may be Holy or Dark as well. In addition, you can use Flight."
+  },
+  "combat_kitty_(cait_sith)": {
+    "ID": "combat_kitty_(cait_sith)",
+    "Name": "Combat Kitty (Cait Sith)",
     "Cost": "100",
     "Requirement": "Must be a Cait Sith.",
     "Description": "You may use abilities like normal while in cat form. Any abilities that require a specific weapon, armor or similar physical requirement cannot be used."
@@ -90,9 +104,9 @@
     "Requirement": "Must have purchased Divine Luck I.",
     "Description": "Once per arc, you may choose to automatically succeed on a check (if success is possible)."
   },
-  "drag_along": {
-    "ID": "drag_along",
-    "Name": "Drag along",
+  "drag_along_(lamia)": {
+    "ID": "drag_along_(lamia)",
+    "Name": "Drag along (Lamia)",
     "Cost": "200",
     "Requirement": "Must be a Lamia.",
     "Description": "When you have a target under the effect of \"Just a hug\", you can still move at half of your normal movement speed while under the Just a hug root effect and you still count as rooted for all other purposes.When moving, you can drag along the target of Just a hug, but they still count as rooted at your new location.In addition, your grapple power increases by +1."
@@ -118,6 +132,13 @@
     "Requirement": "-",
     "Description": "You gain Elemental Mastery in an element of your choice.You may pick this breakthrough more than once, choosing a different element each time."
   },
+  "elemental_breath_(ryujin)": {
+    "ID": "elemental_breath_(ryujin)",
+    "Name": "Elemental Breath (Ryujin)",
+    "Cost": "100",
+    "Requirement": "Must be a Ryujin.",
+    "Description": "You may let your Dragon Breath do the damage of any element that you have mastered."
+  },
   "elixir_addict": {
     "ID": "elixir_addict",
     "Name": "Elixir Addict",
@@ -125,9 +146,9 @@
     "Requirement": "Must have used at least 3 elixirs.",
     "Description": "You have become used to the effects of drinking elixirs, too used in fact. At the end of your turn in combat, if you do not have an Elixir active you take 6 true damage. The HP cost of drinking all elixirs is reduced by 11.This breakthrough may be removed during an interlude phase by spending 1 IP."
   },
-  "fae_flash_acrobat": {
-    "ID": "fae_flash_acrobat",
-    "Name": "Fae Flash Acrobat",
+  "fae_flash_acrobat_(fae)": {
+    "ID": "fae_flash_acrobat_(fae)",
+    "Name": "Fae Flash Acrobat (Fae)",
     "Cost": "50",
     "Requirement": "Must be a Fae.",
     "Description": "While using Fae Flash, you may teleport a partial distance and materialize there to redirect your teleport. In a single Fae Step, you may teleport multiple times, reappearing each time you stop, to teleport from that new position. You are still limited by your maximum teleport distance and cannot take any other actions between each teleport."
@@ -139,9 +160,9 @@
     "Requirement": "Must be chosen at character creation. Must choose Faerie or Chimera race.",
     "Description": "An extremely rare condition in which a Chimera parent and a Faerie parent produces a child with Chimera traits. The odds are said to be less than 1%.If your main race is Chimera, you may choose a Fae subrace instead of a Chimera one. If your main race is Fae, you may choose a Chimera subrace instead of a Fae one. You do not get any of the base traits from the other race and keep the ones from your chosen main race. However, you do get the language from the other race (or a dialect of choosing a chimera subrace)If you pick High Fae as your subrace, you gain Fae Flash instead of Fae Flash II."
   },
-  "faerie_flash_master": {
-    "ID": "faerie_flash_master",
-    "Name": "Faerie Flash Master",
+  "faerie_flash_master_(fae)": {
+    "ID": "faerie_flash_master_(fae)",
+    "Name": "Faerie Flash Master (Fae)",
     "Cost": "100",
     "Requirement": "Must be a Fae.",
     "Description": "When using your Faerie Flash ability, you may spend X additional mana to increase your teleport distance by X times your movement speed."
@@ -153,9 +174,9 @@
     "Requirement": "-",
     "Description": "Once per arc you may eat food and gain the benefits even if you already had gotten the benefits from eating food that day."
   },
-  "fast_movement": {
-    "ID": "fast_movement",
-    "Name": "Fast Movement",
+  "fast_movement_(centaur)": {
+    "ID": "fast_movement_(centaur)",
+    "Name": "Fast Movement (Centaur)",
     "Cost": "200",
     "Requirement": "Must be Centaur.",
     "Description": "Your base movement speed increases by 5ft."
@@ -167,30 +188,30 @@
     "Requirement": "-",
     "Description": "Whenever you are afflicted by a Fear type condition, you may spend 1 RP or 1 AP to remove it."
   },
-  "fight_and_flight": {
-    "ID": "fight_and_flight",
-    "Name": "Fight and Flight",
+  "fight_and_flight_(chimera)": {
+    "ID": "fight_and_flight_(chimera)",
+    "Name": "Fight and Flight (Chimera)",
     "Cost": "200",
     "Requirement": "Must be a Chimera.",
     "Description": "When using Fight or Flight, you no longer receive the drawback."
   },
-  "flesheater": {
-    "ID": "flesheater",
-    "Name": "Flesheater",
+  "flesheater_(jiangshi)": {
+    "ID": "flesheater_(jiangshi)",
+    "Name": "Flesheater (Jiangshi)",
     "Cost": "100",
     "Requirement": "Must be a Jiangshi.",
     "Description": "When using Consume Enemy, you may consider that your food for the day and regain mana equal to a normal ration. You cannot gain this benefit if you already regained mana from food that day and using this benefit prevents you from regaining mana from food until you’ve rested."
   },
-  "flying_counter": {
-    "ID": "flying_counter",
-    "Name": "Flying Counter",
+  "flying_counter_(kitsune)": {
+    "ID": "flying_counter_(kitsune)",
+    "Name": "Flying Counter (Kitsune)",
     "Cost": "200",
     "Requirement": "Must be a Kitsune.",
     "Description": "When using Fading Counter, you may move up to your movement speed instead of 5ft. This movement has Flight and still does not provoke attacks of opportunity."
   },
-  "four_paw_sprint": {
-    "ID": "four_paw_sprint",
-    "Name": "Four Paw Sprint",
+  "four_paw_sprint_(catfolk)": {
+    "ID": "four_paw_sprint_(catfolk)",
+    "Name": "Four Paw Sprint (Catfolk)",
     "Cost": "100",
     "Requirement": "Must be a Catfolk.",
     "Description": "When spending at least 3 AP of movement, your base movement speed is increased to 40ft instead of 25."
@@ -209,9 +230,9 @@
     "Requirement": "You must be proficient with Light and Medium armor.",
     "Description": "You gain proficiency with Heavy Armor."
   },
-  "hide_behind_ally": {
-    "ID": "hide_behind_ally",
-    "Name": "Hide Behind Ally",
+  "hide_behind_ally_(pixie)": {
+    "ID": "hide_behind_ally_(pixie)",
+    "Name": "Hide Behind Ally (Pixie)",
     "Cost": "300",
     "Requirement": "Must be a Pixie.",
     "Description": "When occupying the same space as a conscious ally that's at least a size bigger than you, you may choose to become untargetable to single target attacks. The ally must be willing to take the hits for you, though they may react to these attacks as normal. While occupying the same space as a conscious ally, any effect that triggers upon not being targeted by an enemy (such as Challenge) will not be triggered. Does not work against Attacks of Opportunity."
@@ -223,19 +244,19 @@
     "Requirement": "Must be chosen at character creation. Must choose Human race.",
     "Description": "While most unions of Human and Chimera parents result in the offspring being fully of Human or fully of Chimera, there are rare instances in which the Chimera traits are still present in a human offspring.Choose one Chimera Subrace and gain all of its features. You do not gain any of the Chimera base traits and instead have the Human ones, including Divine Providence. You do not get the 100 extra exp that humans normally get or human adaptability."
   },
-  "improved_demonic_divine_release": {
-    "ID": "improved_demonic_divine_release",
-    "Name": "Improved Demonic Divine Release",
+  "improved_demonic_divine_release_(demon)": {
+    "ID": "improved_demonic_divine_release_(demon)",
+    "Name": "Improved Demonic Divine Release (Demon)",
     "Cost": "300",
     "Requirement": "Must be a Demon",
     "Description": "When activating your divine release you may choose to reduce your max HP by 22. When you do, you do not pay any additional HP cost to activate it and the HP Upkeep is reduced to 0 while above 0 HP.When you fall below 0 HP, you pay the increased Upkeep cost as normal."
   },
-  "in_sync": {
-    "ID": "in_sync",
-    "Name": "In Sync",
+  "in_sync_(youkai)": {
+    "ID": "in_sync_(youkai)",
+    "Name": "In Sync (Youkai)",
     "Cost": "100",
     "Requirement": "Must be a Youkai.",
-    "Description": "After you use Spiritual Sync, you may cancel the effect for 0 RP at any time. If you do, you regain HP like it is described in the ability or 8 HP for each temporary mana you still had remaining.In addition, the maximum mana or HP you can spend on Spiritual Sync is doubled."
+    "Description": "After you use Spiritual Sync, you may cancel the effect for 0 RP at any time. If you do, you regain mana like it is described in the ability or 8 HP for each temporary mana you still had remaining.In addition, the maximum mana or HP you can spend on Spiritual Sync is doubled."
   },
   "kit_expert": {
     "ID": "kit_expert",
@@ -251,9 +272,9 @@
     "Requirement": "-",
     "Description": "You learn a language of your choice. Rare, dead or similar languages may be unavailable (GM’s discretion).You may take this breakthrough multiple times, picking a different language each time."
   },
-  "large_specimen": {
-    "ID": "large_specimen",
-    "Name": "Large Specimen",
+  "large_specimen_(nio_or_bearfolk)": {
+    "ID": "large_specimen_(nio_or_bearfolk)",
+    "Name": "Large Specimen (Nio or Bearfolk)",
     "Cost": "100",
     "Requirement": "Must be a Nio or Bearfolk.",
     "Description": "Your size becomes Large."
@@ -279,30 +300,30 @@
     "Requirement": "You must be proficient with Light Armor",
     "Description": "You gain proficiency with Medium Armor."
   },
-  "mental_torture": {
-    "ID": "mental_torture",
-    "Name": "Mental Torture",
+  "mental_torture_(unseelie)": {
+    "ID": "mental_torture_(unseelie)",
+    "Name": "Mental Torture (Unseelie)",
     "Cost": "100",
     "Requirement": "Must be an Unseelie.",
     "Description": "When you roll a natural 20 on your accuracy roll, you may apply the effects of Torture Techniques even if the enemy Dodges or Blocks it."
   },
-  "mixed_house": {
-    "ID": "mixed_house",
-    "Name": "Mixed House",
+  "mixed_house_(demon)": {
+    "ID": "mixed_house_(demon)",
+    "Name": "Mixed House (Demon)",
     "Cost": "100",
     "Requirement": "Must be a Demon.",
     "Description": "You choose another house to gain the benefit of."
   },
-  "mystic_eyes_of_faerie_light": {
-    "ID": "mystic_eyes_of_faerie_light",
-    "Name": "Mystic Eyes of Faerie Light",
+  "mystic_eyes_of_faerie_light_(fae)": {
+    "ID": "mystic_eyes_of_faerie_light_(fae)",
+    "Name": "Mystic Eyes of Faerie Light (Fae)",
     "Cost": "100",
     "Requirement": "Must be a Fae.",
     "Description": "Your Fae eyes have developed into the Eyes of Faerie Light.  You may purchase the Faerie Light Eyes class.In addition, you can make a Perception check at +10 bonus to determine if something is an illusion. You are not immune to these illusions however."
   },
-  "natural_immunity": {
-    "ID": "natural_immunity",
-    "Name": "Natural Immunity",
+  "natural_immunity_(ratfolk)": {
+    "ID": "natural_immunity_(ratfolk)",
+    "Name": "Natural Immunity (Ratfolk)",
     "Cost": "100",
     "Requirement": "Must be Ratfolk",
     "Description": "When you successfully resist the effect of a disease or poison (or are immune to the effect), you may choose to become afflicted anyway. You suffer no effects from a disease or poison you choose to accept this way. This poison or disease lasts the normal duration or until the end of the encounter, whichever is shorter."
@@ -335,37 +356,37 @@
     "Requirement": "Must have the Organized Inventory II breakthrough",
     "Description": "Your in-combat Burden capacity is increased by 1."
   },
-  "overrun": {
-    "ID": "overrun",
-    "Name": "Overrun",
+  "overrun_(centaur)": {
+    "ID": "overrun_(centaur)",
+    "Name": "Overrun (Centaur)",
     "Cost": "200",
     "Requirement": "Must be a Centaur.",
     "Description": "When using the Charge or Spear Charge ability your movement speed is increased by 5ft and if your attack made through the Charge ability does damage, it knocks the target prone."
   },
-  "panda_martial_arts": {
-    "ID": "panda_martial_arts",
-    "Name": "Panda Martial Arts",
+  "panda_martial_arts_(red_panda)": {
+    "ID": "panda_martial_arts_(red_panda)",
+    "Name": "Panda Martial Arts (Red Panda)",
     "Cost": "100",
     "Requirement": "Must be Red Panda",
     "Description": "You can be in Panda stance at the same time as another stance without either stance ending.Other rules for stance breaking (such as entering 2 non-panda stances) still apply."
   },
-  "photosynthesis": {
-    "ID": "photosynthesis",
-    "Name": "Photosynthesis",
+  "photosynthesis_(dryad)": {
+    "ID": "photosynthesis_(dryad)",
+    "Name": "Photosynthesis (Dryad)",
     "Cost": "100",
     "Requirement": "Must be Dryad.",
     "Description": "By spending at least an hour in the direct sunlight, you may gain the benefits of having eaten food and you do not need to eat or drink for the next 24 hours."
   },
-  "power_saving_mode": {
-    "ID": "power_saving_mode",
-    "Name": "Power Saving Mode",
+  "power_saving_mode_(ancient_marionette)": {
+    "ID": "power_saving_mode_(ancient_marionette)",
+    "Name": "Power Saving Mode (Ancient Marionette)",
     "Cost": "100",
     "Requirement": "Must be an Ancient Marionette",
     "Description": "If you are at maximum mana during your meal, you only need to consume half the normal amount to be well fed."
   },
-  "powerful_ki": {
-    "ID": "powerful_ki",
-    "Name": "Powerful Ki",
+  "powerful_ki_(oni)": {
+    "ID": "powerful_ki_(oni)",
+    "Name": "Powerful Ki (Oni)",
     "Cost": "200",
     "Requirement": "Must be an Oni.",
     "Description": "When using Gravitational Ki, the range increases by 30ft. The push and pull distance increases by up to 10ft. In addition, you may spend 1 AP instead of 1 RP on it."
@@ -384,9 +405,9 @@
     "Requirement": "Must be Phoenix, Mothfolk, Lizardfolk or Willowisp race.",
     "Description": "You may use Flight."
   },
-  "rapid_flash": {
-    "ID": "rapid_flash",
-    "Name": "Rapid Flash",
+  "rapid_flash_(high_fae)": {
+    "ID": "rapid_flash_(high_fae)",
+    "Name": "Rapid Flash (High Fae)",
     "Cost": "100",
     "Requirement": "Must be a High Fae.",
     "Description": "Your Fae Flash gains the Rapid keyword."
@@ -454,16 +475,16 @@
     "Requirement": "Must be a summoner and have visited the eidolon.",
     "Description": "Appearance: Pipoltr appears as a giant scarab beetle whose carapace glints with a metallic sheen like burnished bronze and emerald green.  His presence is both otherworldly and ancient, curved antennae sprout from his head that can detect the health of plants.  His compound eyes shine like brilliant gems.Desires: Pipoltr’s desire is the health of nature.Pact Cost:  1 Maximum Mana.Attunement Cost: NoneRe-Summon Eidolon:  Character must perform 1 day of gardening work before resummoning Pipoltr.When you contract Pipoltr, you are able to attune to it. While attuned, you gain access the Vine Wall Cover ability through your Channel Eidolon ability. You summon the Rhinoceros Beetle for your Lesser Eidolon and Pipoltr for your Eidolon. (The stats for these are listed under monsters.)"
   },
-  "superior_escapist": {
-    "ID": "superior_escapist",
-    "Name": "Superior Escapist",
+  "superior_escapist_(rabbitfolk)": {
+    "ID": "superior_escapist_(rabbitfolk)",
+    "Name": "Superior Escapist (Rabbitfolk)",
     "Cost": "100",
     "Requirement": "Must be a Rabbitfolk.",
     "Description": "You may use your Escape Artist when Rooted to remove it in addition to grapples."
   },
-  "tengu_defensive_aura": {
-    "ID": "tengu_defensive_aura",
-    "Name": "Tengu Defensive Aura",
+  "tengu_defensive_aura_(tengu)": {
+    "ID": "tengu_defensive_aura_(tengu)",
+    "Name": "Tengu Defensive Aura (Tengu)",
     "Cost": "100",
     "Requirement": "Must be a Tengu.",
     "Description": "Your resistance to astra corruption is increased by 1 (Your SC is treated as 500 higher when determining if you suffer from astra corruption). In addition, you do not suffer any negative effects when the astra level is raised artificially. (such as from Exousiai's)."

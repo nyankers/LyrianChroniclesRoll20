@@ -29,6 +29,11 @@
      "ID": "aetherie",
      "Tier": 2
    },
+   "agrarian": {
+     "Name": "Agrarian",
+     "ID": "agrarian",
+     "Tier": 2
+   },
    "alchemeister": {
      "Name": "Alchemeister",
      "ID": "alchemeister",
@@ -147,7 +152,7 @@
    "botanist": {
      "Name": "Botanist",
      "ID": "botanist",
-     "Tier": 2
+     "Tier": 0
    },
    "brawler": {
      "Name": "Brawler",
@@ -192,7 +197,7 @@
    "cultivator": {
      "Name": "Cultivator",
      "ID": "cultivator",
-     "Tier": 2
+     "Tier": 1
    },
    "curse-knight": {
      "Name": "Curse Knight",
@@ -309,6 +314,11 @@
      "ID": "flash-star-blade-style-",
      "Tier": 2
    },
+   "flowing-wind-style": {
+     "Name": "Flowing Wind Style",
+     "ID": "flowing-wind-style",
+     "Tier": 2
+   },
    "forager": {
      "Name": "Forager",
      "ID": "forager",
@@ -323,6 +333,31 @@
      "Name": "Geomancer",
      "ID": "geomancer",
      "Tier": 2
+   },
+   "geomaster": {
+     "Name": "Geomaster",
+     "ID": "geomaster",
+     "Tier": 3
+   },
+   "grandmaster": {
+     "Name": "Grandmaster",
+     "ID": "grandmaster",
+     "Tier": 2
+   },
+   "granite-warden": {
+     "Name": "Granite Warden",
+     "ID": "granite-warden",
+     "Tier": 2
+   },
+   "gravitect": {
+     "Name": "Gravitect",
+     "ID": "gravitect",
+     "Tier": 3
+   },
+   "graviturge": {
+     "Name": "Graviturge",
+     "ID": "graviturge",
+     "Tier": 3
    },
    "great-berserker": {
      "Name": "Great Berserker",
@@ -347,6 +382,11 @@
    "gunslinger": {
      "Name": "Gunslinger",
      "ID": "gunslinger",
+     "Tier": 2
+   },
+   "harrier": {
+     "Name": "Harrier",
+     "ID": "harrier",
      "Tier": 2
    },
    "high-priest": {
@@ -378,6 +418,11 @@
      "Name": "Iai Style",
      "ID": "iai-style",
      "Tier": 2
+   },
+   "idol": {
+     "Name": "Idol",
+     "ID": "idol",
+     "Tier": 1
    },
    "jonin": {
      "Name": "Jonin",
@@ -599,6 +644,11 @@
      "ID": "spellblade",
      "Tier": 2
    },
+   "starcaller": {
+     "Name": "Starcaller",
+     "ID": "starcaller",
+     "Tier": 2
+   },
    "still-stone-style": {
      "Name": "Still Stone Style",
      "ID": "still-stone-style",
@@ -612,6 +662,11 @@
    "summoner": {
      "Name": "Summoner",
      "ID": "summoner",
+     "Tier": 2
+   },
+   "swashbuckler": {
+     "Name": "Swashbuckler",
+     "ID": "swashbuckler",
      "Tier": 2
    },
    "sword-paladin": {

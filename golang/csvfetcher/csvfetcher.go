@@ -43,7 +43,7 @@ func main() {
 			} else if record[1] == "light_attack_weapon" {
 				abilities[record[0]] = "&{template:default} {{name=@{name} ❖ Light Attack[@{main_weapon_name}]}} {{Attack=[[1d20+@{focus}+@{main_weapon_focus}]]}} {{Damage=[[2d4+@{power}+@{main_weapon_power}]]}}"
 			} else if record[1] == "heavy_attack_weapon" {
-				abilities[record[0]] = "&{template:default} {{name=@{name} ❖ Heavy Attack[@{main_weapon_name}]}} {{Attack=[[1d20+@{focus}+@{main_weapon_focus}]]}} {{Damage=[[4d6+2(@{power}+@{main_weapon_power})]]}}"
+				abilities[record[0]] = "&{template:default} {{name=@{name} ❖ Heavy Attack[@{main_weapon_name}]}} {{Attack=[[1d20+@{focus}+@{main_weapon_focus}]]}} {{Damage=[[4d6+2*(@{power}+@{main_weapon_power})]]}}"
 			} else if record[1] == "precise_attack_weapon" {
 				abilities[record[0]] = "&{template:default} {{name=@{name} ❖ Precise Attack[@{main_weapon_name}]}} {{Attack=[[1d20+2*(@{focus}+@{main_weapon_focus})]]}} {{Damage=[[2d4+@{power}+@{main_weapon_power}]]}}"
 			} else {

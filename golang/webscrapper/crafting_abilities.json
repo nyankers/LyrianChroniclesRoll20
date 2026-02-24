@@ -18,7 +18,7 @@
      "Name": "Alchemic Catch",
      "Keywords": "",
      "Cost": "",
-     "Description": "Co-Craft. Use a hasty transmutation to attempt to fix a crafting error.  You may reroll a crafting dice after already determining the result.  You must keep the second number.  Cannot be used for the last crafting dice."
+     "Description": "Co-Craft. Use a hasty transmutation to attempt to fix a crafting error. You may reroll a crafting dice after already determining the result. You must keep the second number. Cannot be used for the last crafting dice."
    },
    "armorsmiths_modification_a": {
      "ID": "armorsmiths_modification_a",
@@ -27,19 +27,26 @@
      "Cost": "X Crafting Points",
      "Description": "You add an A-Type modification to the weapon or tool. See the Universal Armor page as well as the individual armor pages for details. Each modification has its own cost."
    },
+   "armorsmiths_modification_b": {
+     "ID": "armorsmiths_modification_b",
+     "Name": "Armorsmith's Modification B",
+     "Keywords": "",
+     "Cost": "X Crafting Points",
+     "Description": "You add an B-Type modification to the weapon or tool. See the Universal Armor page as well as the individual armor pages for details. Each modification has its own cost."
+   },
    "artifice_modification_a": {
      "ID": "artifice_modification_a",
      "Name": "Artifice Modification A",
      "Keywords": "",
      "Cost": "10 crafting points",
-     "Description": "You add an A-Type modification to an artifice. See the individual artifice to see if modifications are available."
+     "Description": "You add an A-Type modification to an artifice.See the individual artifice to see if modifications are available."
    },
    "attach/detach_artifice": {
      "ID": "attach/detach_artifice",
      "Name": "Attach/Detach Artifice",
      "Keywords": "",
      "Cost": "Errand",
-     "Description": "You spend some time connecting the artifice to a weapon with an open artifice slot."
+     "Description": "You spend some time connecting the artifice to a weapon with an open artifice slot. If you remove an artifice from a weapon, you can attach it to a different weapon with the same Errand action."
    },
    "blacksmiths_modification_a": {
      "ID": "blacksmiths_modification_a",
@@ -48,12 +55,33 @@
      "Cost": "X Crafting Points",
      "Description": "You add an A-Type modification to the weapon or tool. See the Universal Weapon or Crafting mods page as well as the individual weapon page for details. Each modification has its own cost."
    },
+   "blacksmiths_modification_b": {
+     "ID": "blacksmiths_modification_b",
+     "Name": "Blacksmith’s Modification B",
+     "Keywords": "",
+     "Cost": "X Crafting Points",
+     "Description": "You add an B-Type modification to the weapon or tool. See the Universal Weapon or Crafting mods page as well as the individual weapon page for details. Each modification has its own cost."
+   },
    "bouncing_ideas": {
      "ID": "bouncing_ideas",
      "Name": "Bouncing Ideas",
      "Keywords": "",
+     "Cost": "1 Crafting Dice",
+     "Description": "Co-Craft.You assist with crafting adding 1d4 crafting points to the current craft."
+   },
+   "bountiful_harvest": {
+     "ID": "bountiful_harvest",
+     "Name": "Bountiful Harvest",
+     "Keywords": "Rapid",
+     "Cost": "1 Interlude Point",
+     "Description": "You bless one of the planted seeds that grants Food units or Alchemy materials. It grants double that amount and you add 5 to its difficulty. Does not stack."
+   },
+   "bountiful_harvest_ii": {
+     "ID": "bountiful_harvest_ii",
+     "Name": "Bountiful Harvest II",
+     "Keywords": "Rapid",
      "Cost": "",
-     "Description": "Co-Craft. You assist with crafting adding 1d4 crafting points to the current craft."
+     "Description": "You bless one of the planted seeds that grants Food units or Alchemy materials. It grants 4 times that amount and you add 10 to its difficulty. Does not stack."
    },
    "carpenters_modification_a": {
      "ID": "carpenters_modification_a",
@@ -61,6 +89,13 @@
      "Keywords": "",
      "Cost": "X Crafting Points",
      "Description": "You add an A-Type modification to the weapon or tool. See the Universal Weapon page as well as the individual weapon page for details. Each modification has its own cost."
+   },
+   "carpenters_modification_b": {
+     "ID": "carpenters_modification_b",
+     "Name": "Carpenter's Modification B",
+     "Keywords": "",
+     "Cost": "X Crafting Points",
+     "Description": "You add an B-Type modification to the weapon or tool. See the Universal Weapon page as well as the individual weapon page for details. Each modification has its own cost."
    },
    "cloak_layering": {
      "ID": "cloak_layering",
@@ -74,42 +109,49 @@
      "Name": "Craft Artifice Parts",
      "Keywords": "",
      "Cost": "Errand",
-     "Description": "You create up to 3000u of artifice parts of the same type of blacksmithing material used to make them at a 1:1 rate. (3000u of Iron Creates 3000u of Iron Artifice Parts.)  See Items:  Blacksmithing Materials, Artificer Materials. When converting items of a higher tier, you can convert up to 6000 of tamahagane, 9000 of mithril, 12000 of Orihalcum or 15000 of escudo."
+     "Description": "You create up to 3000u of artifice parts of the same type of blacksmithing material used to make them at a 11 rate. (3000u of Iron Creates 3000u of Iron Artifice Parts.) See Items Blacksmithing Materials, Artificer Materials. When converting items of a higher tier, you can convert up to 6000 of tamahagane, 9000 of mithril, 12000 of Orihalcum or 15000 of escudo."
    },
    "craft_fuel_shells": {
      "ID": "craft_fuel_shells",
      "Name": "Craft Fuel Shells",
      "Keywords": "",
      "Cost": "Errand",
-     "Description": "You craft up to 5 small shells.  You can instead craft a medium shell instead of 2 small shells.  Small shells require 50 magical fuel, medium shells require 200 magical fuel."
+     "Description": "You craft up to 5 small shells. You can instead craft a medium shell instead of 2 small shells. Small shells require 50 magical fuel, medium shells require 200 magical fuel."
    },
    "create_artifice_parts": {
      "ID": "create_artifice_parts",
      "Name": "Create Artifice Parts",
      "Keywords": "",
-     "Cost": "Errand",
-     "Description": "You create up to 3000u of artifice parts of the same type of blacksmithing material used to make them at a 1:1 rate. (3000u of Iron Creates 3000u of Iron Artifice Parts.)  See Items:  Blacksmithing Materials, Artificer Materials. When converting items of a higher tier, you can convert up to 6000 of tamahagane, 9000 of mithril, 12000 of Orihalcum or 15000 of escudo."
+     "Cost": " Errand",
+     "Description": "You create up to 3000u of artifice parts of the same type of blacksmithing material used to make them at a 11 rate. (3000u of Iron Creates 3000u of Iron Artifice Parts.) See Items Blacksmithing Materials, Artificer Materials. When converting items of a higher tier, you can convert up to 6000 of tamahagane, 9000 of mithril, 12000 of Orihalcum or 15000 of escudo."
+   },
+   "create_box_or_bundle_of_food": {
+     "ID": "create_box_or_bundle_of_food",
+     "Name": "Create Box or Bundle of Food",
+     "Keywords": "",
+     "Cost": " Errand.",
+     "Description": "You create a perfect mix of ingredients that would be worthy of a stock with 500u of matching material. Example 500u of Meat can make 1 Box of Fresh Meat. You can make 5 boxes of any kind for one errand action."
    },
    "create_ingot": {
      "ID": "create_ingot",
      "Name": "Create Ingot",
      "Keywords": "",
-     "Cost": "Errand",
-     "Description": "You create an ingot from blacksmithing base materials or from blacksmithing special materials.  See Item:  Blacksmithing Materials."
+     "Cost": " Errand",
+     "Description": "You create an ingot from blacksmithing base materials or from blacksmithing special materials. See Item Blacksmithing Materials."
    },
    "create_oil_coating": {
      "ID": "create_oil_coating",
      "Name": "Create Oil Coating",
      "Keywords": "",
-     "Cost": "Errand",
-     "Description": "You create an Oil Coating from Carpenter materials.  See Items:  Carpenter Materials"
+     "Cost": " Errand",
+     "Description": "You create an Oil Coating from Carpenter materials. See Items Carpenter Materials"
    },
    "create_wood_block": {
      "ID": "create_wood_block",
      "Name": "Create Wood Block",
      "Keywords": "",
-     "Cost": "Errand",
-     "Description": "You create a Wood Block from Carpenter materials.  See Items:  Carpenter Materials"
+     "Cost": " Errand",
+     "Description": "You create a Wood Block from Carpenter materials. See Items Carpenter Materials"
    },
    "detoxify_elixir": {
      "ID": "detoxify_elixir",
@@ -130,7 +172,7 @@
      "Name": "Double Barrel",
      "Keywords": "",
      "Cost": "10 crafting points",
-     "Description": "Can hold up to 2 shells. You still reload 1 shell at a time."
+     "Description": "Can hold up to 2 shells.You still reload 1 shell at a time."
    },
    "efficient_dilution": {
      "ID": "efficient_dilution",
@@ -144,7 +186,7 @@
      "Name": "Explosive Lining",
      "Keywords": "",
      "Cost": "10 Crafting Points",
-     "Description": "You carefully add an alchemical compound to a pressurized Flask. If the Flask has an area of effect, increases the area by another 5ft (example a 10ft radius becomes 15ft radius)."
+     "Description": "You carefully add an alchemical compound to a pressurized Flask.If the Flask has an area of effect, increases the area by another 5ft(example a 10ft radius becomes 15ft radius)."
    },
    "firearm_alloy": {
      "ID": "firearm_alloy",
@@ -158,7 +200,7 @@
      "Name": "Fish Stock",
      "Keywords": "",
      "Cost": "15 Crafting Points",
-     "Description": "Turns a Gourmet Base Stock into a Fish Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Toughness Food Bonus that lasts for 24 hours.  Requires 1 Box of Fresh Fish."
+     "Description": "Turns a Gourmet Base Stock into a Fish Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Toughness Food Bonus that lasts for 24 hours. Requires 1 Box of Fresh Fish."
    },
    "greater_infuse_qi": {
      "ID": "greater_infuse_qi",
@@ -179,20 +221,27 @@
      "Name": "Herbal Stock",
      "Keywords": "",
      "Cost": "30 Crafting Points",
-     "Description": "Turns a Gourmet Base Stock into a Herbal Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Gathering Food Bonus that lasts for 24 hours.  Requires 1 bundle of Fresh Cooking Herbs."
+     "Description": "Turns a Gourmet Base Stock into a Herbal Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Gathering Food Bonus that lasts for 24 hours. Requires 1 bundle of Fresh Cooking Herbs."
    },
    "infuse_qi": {
      "ID": "infuse_qi",
      "Name": "Infuse Qi",
-     "Keywords": "",
-     "Cost": "Rapid",
+     "Keywords": "Rapid",
+     "Cost": "1 Interlude Point",
      "Description": "You infuse one of the planted herbs with Qi, upgrading it from common to rare and adding 10 to its difficulty."
+   },
+   "infuse_wand": {
+     "ID": "infuse_wand",
+     "Name": "Infuse Wand",
+     "Keywords": "",
+     "Cost": " 5 Crafting Points",
+     "Description": "You add a drop of Oil Coating into a wand, changing the built in damage type to the element of the oil. Only works with oils that change the damage type. Does not consume the oil."
    },
    "joining_and_assembling": {
      "ID": "joining_and_assembling",
      "Name": "Joining and Assembling",
      "Keywords": "",
-     "Cost": "X Crafting Points",
+     "Cost": " X Crafting Points",
      "Description": "You mix a special material into the carpentry project. Each material has its own crafting point cost."
    },
    "masterful_dilution": {
@@ -200,14 +249,14 @@
      "Name": "Masterful Dilution",
      "Keywords": "",
      "Cost": "40 Crafting Points",
-     "Description": "By diluting the contents to the perfect required amounts, you gain an additional Elixir, Potion, Flask, Potion or Salve upon crafting success. Stacks with Efficient Dilution."
+     "Description": "By diluting the contents to the perfect required amounts, you gain an additional Elixir, Potion, Flask, Potion or Salve upon crafting success.Stacks with Efficient Dilution."
    },
    "meaty_stock": {
      "ID": "meaty_stock",
      "Name": "Meaty Stock",
      "Keywords": "",
      "Cost": "15 Crafting Points",
-     "Description": "Turns a Gourmet Base Stock into a Meaty Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Power Food Bonus that lasts for 24 hours.  Requires 1 Box of Fresh Meat."
+     "Description": "Turns a Gourmet Base Stock into a Meaty Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Power Food Bonus that lasts for 24 hours. Requires 1 Box of Fresh Meat."
    },
    "mushroom_stock": {
      "ID": "mushroom_stock",
@@ -221,28 +270,28 @@
      "Name": "Pressurization",
      "Keywords": "",
      "Cost": "10 Crafting Points",
-     "Description": "You pressurize a Flask carefully. If the Flask has an area of effect, increases the area by 5ft (example a 10ft radius becomes 15ft radius)."
+     "Description": "You pressurize a Flask carefully.If the Flask has an area of effect, increases the area by 5ft (example a 10ft radius becomes 15ft radius)."
+   },
+   "purify_elixir": {
+     "ID": "purify_elixir",
+     "Name": "Purify Elixir",
+     "Keywords": "",
+     "Cost": "40 Crafting Points",
+     "Description": "You reduce the toxicity of an Elixir that has been detoxified while still maintaining its effect, reducing the damage from taking an Elixir by an additional 5."
    },
    "rage_quit": {
      "ID": "rage_quit",
      "Name": "Rage Quit",
      "Keywords": "",
      "Cost": "1 Crafting Dice",
-     "Description": "Co-Craft. Only usable once per crafting IP.  Destroy the uncrafted item and all materials invested into the craft.  You may immediately start another crafting session.  If you use this as a Co-Craft it requires 1 crafting dice from the main crafter."
+     "Description": "Co-Craft. Only usable once per crafting IP. Destroy the uncrafted item and all materials invested into the craft. You may immediately start another crafting session. If you use this as a Co-Craft it requires 1 crafting dice from the main crafter."
    },
    "secret_ingredient": {
      "ID": "secret_ingredient",
      "Name": "Secret Ingredient",
      "Keywords": "",
      "Cost": "X Crafting Points",
-     "Description": "You mix a special material into the stock.  Each material has its own crafting point cost."
-   },
-   "simplify_armor": {
-     "ID": "simplify_armor",
-     "Name": "Simplify Armor",
-     "Keywords": "",
-     "Cost": "0 crafting points",
-     "Description": "You turn the light armor you’re crafting into regular clothing, removing all normal benefits and penalties of armor (including upgrades like Hardened Layer and Reinforced Guard) and allowing it to be worn by anyone. Clothing does not cost burden. May still contain stuff added through Adaptive Layering and modifications, but does not gain stat bonuses from material and can not benefit from modifications specific to light, medium or heavy armor."
+     "Description": "You mix a special material into the stock. Each material has its own crafting point cost."
    },
    "sow_seeds": {
      "ID": "sow_seeds",
@@ -256,21 +305,21 @@
      "Name": "Spicy Stock",
      "Keywords": "",
      "Cost": "30 Crafting Points",
-     "Description": "Turns a Gourmet Base Stock into a Spicy Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Crafting Food Bonus that lasts for 24 hours.  Requires 1 bundle of Spicy Peppers."
+     "Description": "Turns a Gourmet Base Stock into a Spicy Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Crafting Food Bonus that lasts for 24 hours. Requires 1 bundle of Spicy Peppers."
    },
    "spiritual_ground": {
      "ID": "spiritual_ground",
      "Name": "Spiritual Ground",
      "Keywords": "",
      "Cost": "1 Interlude Point",
-     "Description": "You infuse the land with your spiritual energy, creating up to 10 plots of land suitable for farming. These plots of lands can grow food and herbs at an accelerated rate and allow the planting of tier 1 rare herbs.All plots of land must be filled with seeds before they begin growing. After creating a spiritual ground, you may immediately use"
+     "Description": "You infuse the land with your spiritual energy, creating up to 10 plots of land suitable for farming. These plots of lands can grow food and herbs at an accelerated rate and allow the planting of tier 1 rare herbs.All plots of land must be filled with seeds before they begin growing.After creating a spiritual ground, you may immediately use"
    },
    "stir_layered_flavors": {
      "ID": "stir_layered_flavors",
      "Name": "Stir Layered Flavors",
      "Keywords": "",
      "Cost": "30 Crafting Points",
-     "Description": "Allows you to add another flavor, allowing you to add a second different flavor.  Choose from Mushroom, Meaty, Fish, Vegetable, Spicy or Herbal—then add the corresponding ingredient.  For example:  A Mushroom stock + Meaty stock becomes a Mushroom-Meaty stock that grants +1 Power / +1 Focus Food Bonus."
+     "Description": "Allows you to add another flavor, allowing you to add a second different flavor. Choose from Mushroom, Meaty, Fish, Vegetable, Spicy or Herbal—then add the corresponding ingredient. For example A Mushroom stock + Meaty stock becomes a Mushroom-Meaty stock that grants +1 Power / +1 Focus Food Bonus."
    },
    "stone_grinding": {
      "ID": "stone_grinding",
@@ -278,6 +327,13 @@
      "Keywords": "",
      "Cost": "10 Crafting Points",
      "Description": "You extract the highest quality healing materials from herbs, granting Healing +5 to a Potion with a heal effect."
+   },
+   "tan_leather": {
+     "ID": "tan_leather",
+     "Name": "Tan Leather",
+     "Keywords": "",
+     "Cost": "Errand",
+     "Description": "You create a tanned hide from armorsmithing base leather materials. See item Armorsmthing materials."
    },
    "temperature_shock": {
      "ID": "temperature_shock",
@@ -298,7 +354,7 @@
      "Name": "Vegetable Stock",
      "Keywords": "",
      "Cost": "15 Crafting Points",
-     "Description": "Turns a Gourmet Base Stock into a Vegetable Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Agility Food Bonus that lasts for 24 hours.  Requires 1 Box of Fresh Vegetables."
+     "Description": "Turns a Gourmet Base Stock into a Vegetable Stock (does not stack with other stocks), which when added to a cooked meal gives a +1 Agility Food Bonus that lasts for 24 hours. Requires 1 Box of Fresh Vegetables."
    },
    "volatile_flask": {
      "ID": "volatile_flask",

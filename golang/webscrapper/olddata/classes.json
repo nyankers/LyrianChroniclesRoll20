@@ -124,6 +124,11 @@
      "ID": "berserker",
      "Tier": 2
    },
+   "black-oath-style": {
+     "Name": "Black Oath Style",
+     "ID": "black-oath-style",
+     "Tier": 2
+   },
    "blacksmith": {
      "Name": "Blacksmith",
      "ID": "blacksmith",
@@ -403,6 +408,11 @@
      "Name": "Magitechnician",
      "ID": "magitechnician-",
      "Tier": 2
+   },
+   "maid": {
+     "Name": "Maid",
+     "ID": "maid",
+     "Tier": 1
    },
    "marksman": {
      "Name": "Marksman",

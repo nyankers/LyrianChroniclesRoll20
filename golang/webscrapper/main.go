@@ -11,6 +11,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/chromedp/chromedp"
+	"github.com/davecgh/go-spew/spew"
 )
 
 const baseURL = "https://rpg.angelssword.com/game/latest"
@@ -31,6 +32,8 @@ type KeyAbility struct {
 type TrueAbility struct {
 	ID            string
 	ClassID       []string
+	RaceID        []string
+	SubraceID     []string
 	LevelRequired int
 	Name          string
 	Keywords      string
@@ -49,6 +52,11 @@ type CraftingAbility struct {
 	Keywords    string
 	Cost        string
 	Description string
+}
+type CraftingAbilityRaw struct {
+	ID   string
+	Name string
+	Text string
 }
 
 type Breakthrough struct {
@@ -291,57 +299,85 @@ func getClassesAndAbilities() {
 
 								text = after
 
-								var craftingAbility CraftingAbility
-								var cost, keywords bool
+								var craftingAbilitiesRaw []CraftingAbilityRaw
+
+								var craftAbilRaw CraftingAbilityRaw
+
+								var newCheckpoints []string
+								for _, cp := range checkpoints {
+									if strings.Contains(cp, "Keywords") || strings.Contains(cp, "Cost") || strings.Contains(cp, "Description") {
+										continue
+									} else {
+										newCheckpoints = append(newCheckpoints, cp)
+									}
+								}
+								checkpoints = newCheckpoints
 
 								for i, checkpoint := range checkpoints {
-									if strings.Contains(checkpoint, "Keywords") {
-										// fmt.Printf("      Found Keywords checkpoint:\n\t%s\n", printNCharacters(text, 50))
-										keywords = true
-										_, after, _ := stringBeforeAfter(text, checkpoint)
-										text = strings.TrimSpace(after)
+									fmt.Println("checkpoint:", checkpoint)
+									// fmt.Printf("      Found Other [%s] checkpoint:\n\t %s\n", checkpoint, printNCharacters(text, 50))
+									craftingAbilName := checkpoint
+									craftingAbilID := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(strings.ReplaceAll(strings.TrimSpace(craftingAbilName), " ", "_"), "'", ""), "’", ""))
+									before, after, _ := stringBeforeAfter(text, checkpoint)
 
-									} else if strings.Contains(checkpoint, "Cost") {
-										// fmt.Printf("      Found Cost checkpoint:\n\t%s\n", printNCharacters(text, 50))
-										cost = true
-										before, after, _ := stringBeforeAfter(text, checkpoint)
-										craftingAbility.Keywords = strings.TrimSpace(before)
-										text = strings.TrimSpace(after)
-									} else if strings.Contains(checkpoint, "Description") {
-										// fmt.Printf("      Found Description checkpoint:\n\t%s\n", printNCharacters(text, 50))
-
-										before, after, _ := stringBeforeAfter(text, checkpoint)
-										// fmt.Printf("        Before: [%s]\n", before)
-										// fmt.Printf("        After: [%s]\n", after)
-										if cost {
-											craftingAbility.Cost = strings.TrimSpace(before)
-										} else if keywords {
-											craftingAbility.Keywords = strings.TrimSpace(before)
-										}
-										if i == len(checkpoints)-1 {
-											craftingAbility.Description = strings.TrimSpace(after)
-										}
-										text = strings.TrimSpace(after)
-
-										// description = true
-
-									} else {
-										// fmt.Printf("      Found Other [%s] checkpoint:\n\t %s\n", checkpoint, printNCharacters(text, 50))
-										craftingAbilName := checkpoint
-										craftingAbilID := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(strings.ReplaceAll(strings.TrimSpace(craftingAbilName), " ", "_"), "'", ""), "’", ""))
-										before, after, _ := stringBeforeAfter(text, checkpoint)
-
-										if i != 0 {
-											craftingAbility.Description = strings.TrimSpace(before)
-											// spew.Dump(craftingAbility)
-											craftingAbilities[craftingAbility.ID] = craftingAbility
-										}
-										craftingAbility = CraftingAbility{
-											ID:   craftingAbilID,
-											Name: strings.TrimSpace(craftingAbilName),
-										}
-										text = strings.TrimSpace(after)
+									if i != 0 {
+										craftAbilRaw.Text = strings.TrimSpace(before)
+										// spew.Dump(craftingAbility)
+										craftingAbilitiesRaw = append(craftingAbilitiesRaw, craftAbilRaw)
 									}
+									craftAbilRaw = CraftingAbilityRaw{
+										ID:   craftingAbilID,
+										Name: strings.TrimSpace(craftingAbilName),
+									}
+									text = strings.TrimSpace(after)
+									if i == len(checkpoints)-1 {
+										craftAbilRaw.Text = strings.TrimSpace(after)
+										craftingAbilitiesRaw = append(craftingAbilitiesRaw, craftAbilRaw)
+									}
+								}
+								spew.Dump(craftingAbilitiesRaw)
+
+								// var craftingAbilities []CraftingAbility
+
+								var craftingAbility CraftingAbility
+
+								for _, car := range craftingAbilitiesRaw {
+									fmt.Println("  Processing Crafting Ability:", car.Name)
+									craftingAbility.ID = car.ID
+									craftingAbility.Name = car.Name
+
+									text := car.Text
+
+									var cost, keywords bool
+
+									for i, checkpoint := range []string{"Keywords", "Cost", "Description"} {
+										if strings.Contains(text, checkpoint) {
+											if checkpoint == "Keywords" {
+												keywords = true
+												_, after, _ := stringBeforeAfter(text, checkpoint)
+												text = strings.TrimSpace(after)
+											} else if checkpoint == "Cost" {
+												cost = true
+												before, after, _ := stringBeforeAfter(text, checkpoint)
+												craftingAbility.Keywords = strings.ReplaceAll(strings.ReplaceAll(strings.TrimSpace(before), "\u00a0", ""), ":", "")
+												text = strings.TrimSpace(after)
+											} else if checkpoint == "Description" {
+												before, after, _ := stringBeforeAfter(text, checkpoint)
+												if cost {
+													craftingAbility.Cost = strings.ReplaceAll(strings.ReplaceAll(strings.TrimSpace(before), "\u00a0", ""), ":", "")
+												} else if keywords {
+													craftingAbility.Keywords = strings.ReplaceAll(strings.ReplaceAll(strings.TrimSpace(before), "\u00a0", ""), ":", "")
+												}
+												if i == 2 {
+													craftingAbility.Description = strings.ReplaceAll(strings.ReplaceAll(strings.TrimSpace(after), "\u00a0", ""), ":", "")
+												}
+												text = strings.TrimSpace(after)
+											}
+										}
+									}
+									// craftingAbilities = append(craftingAbilities, craftingAbility)
+									craftingAbilities[craftingAbility.ID] = craftingAbility
+									// 			craftingAbilities[craftingAbility.ID] = craftingAbility
 								}
 							})
 						} else {
@@ -592,6 +628,7 @@ func getRacesAndAbilities() {
 	var races = make(map[string]string, 0)
 	var subraces = make(map[string]string, 0)
 	var trueAbilities = make(map[string]TrueAbility, 0)
+
 	for _, href := range hrefs {
 		// Create a new tab/context for each navigation
 		tabCtx, tabCancel := chromedp.NewContext(ctx)
@@ -623,7 +660,9 @@ func getRacesAndAbilities() {
 
 		races[race] = rawRaceName
 
+		demon := false
 		if race == "demon" {
+			demon = true
 			fmt.Println("Found Demon Race, extra processing...")
 			docx.Find("app-primary-details mat-panel-title").Each(func(j int, s *goquery.Selection) {
 				text := s.Text()
@@ -642,12 +681,25 @@ func getRacesAndAbilities() {
 			}
 
 			rawName := doc.Find("mat-panel-title span").Text()
+			fmt.Println("checking the text rawName", rawName)
+
 			abilityName := strings.Split(rawName, "○ ")[1]
 			abilityID := strings.ToLower(strings.ReplaceAll(strings.ReplaceAll(abilityName, " ", "_"), "'", ""))
 
 			var trueAbility TrueAbility
 			trueAbility.ID = abilityID
 			trueAbility.Name = abilityName
+			if demon {
+				if strings.Contains(abilityName, "-") {
+					abilityNameRaw := strings.ReplaceAll(strings.ToLower(abilityName), "'", "x")
+					subrace := strings.Split(abilityNameRaw, " ")[0]
+					trueAbility.SubraceID = append(trueAbility.SubraceID, subrace)
+				} else {
+					trueAbility.RaceID = append(trueAbility.RaceID, race)
+				}
+			} else {
+				trueAbility.RaceID = append(trueAbility.RaceID, race)
+			}
 
 			doc.Find("app-true-ability mat-card-content li").Each(func(j int, s *goquery.Selection) {
 				text := s.Text()
@@ -743,6 +795,7 @@ func getRacesAndAbilities() {
 			var trueAbility TrueAbility
 			trueAbility.ID = abilityID
 			trueAbility.Name = abilityName
+			trueAbility.SubraceID = append(trueAbility.SubraceID, subrace)
 
 			// fmt.Printf("  Processing True Ability: %s [%s]\n", abilityName, abilityID)
 			doc.Find("app-true-ability mat-card-content li").Each(func(j int, s *goquery.Selection) {
